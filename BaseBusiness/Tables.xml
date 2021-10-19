@@ -1,0 +1,128 @@
+<Tables>
+
+	<Table>
+		<name>SpeedReducer</name>
+		<column>
+			<name>iD</name>
+			<dataType>int</dataType>
+			<isPK>true</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias></alias>
+			<number>0</number>
+		</column>
+		<column>
+			<name>standValue</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Stand Value</alias>
+			<number>1</number>
+		</column>
+		<column>
+			<name>min</name>
+			<dataType>decimal</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Min</alias>
+			<number>2</number>
+		</column>
+		<column>
+			<name>max</name>
+			<dataType>decimal</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Max</alias>
+			<number>3</number>
+		</column>
+		<column>
+			<name>line</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Line</alias>
+			<number>4</number>
+		</column>
+		<column>
+			<name>timeRunF</name>
+			<dataType>decimal</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Time Run F</alias>
+			<number>5</number>
+		</column>
+		<column>
+			<name>timeRunR</name>
+			<dataType>decimal</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Time Run R</alias>
+			<number>6</number>
+		</column>
+		<column>
+			<name>timeTeaching</name>
+			<dataType>decimal</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Time Teaching</alias>
+			<number>7</number>
+		</column>
+		<column>
+			<name>timeGetVongQuay</name>
+			<dataType>decimal</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Time Get Vong Quay</alias>
+			<number>8</number>
+		</column>
+		<column>
+			<name>timeMotorStop</name>
+			<dataType>decimal</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Time Motor Stop</alias>
+			<number>9</number>
+		</column>
+		<column>
+			<name>createDate</name>
+			<dataType>datetime</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Create Date</alias>
+			<number>10</number>
+		</column>
+		<column>
+			<name>name</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Name</alias>
+			<number>11</number>
+		</column>
+	</Table>
+
+</Tables>
+
