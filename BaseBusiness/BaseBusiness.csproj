@@ -140,6 +140,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="BO\UsersBO.cs" />
+    <Compile Include="BO\WeightBO.cs" />
     <Compile Include="BO\WorkingBO.cs" />
     <Compile Include="BO\WorkingStepBO.cs" />
     <Compile Include="Exceptions\BOException.cs" />
@@ -187,6 +188,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Facade\UsersFacade.cs" />
+    <Compile Include="Facade\WeightFacade.cs" />
     <Compile Include="Facade\WorkingFacade.cs" />
     <Compile Include="Facade\WorkingStepFacade.cs" />
     <Compile Include="Model\ActivityLogModel.cs" />
@@ -236,6 +238,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Model\UsersModel.cs" />
+    <Compile Include="Model\WeightModel.cs" />
     <Compile Include="Model\WorkingModel.cs" />
     <Compile Include="Model\WorkingStepModel.cs" />
     <Compile Include="Object\ObservableObject.cs" />
@@ -365,7 +368,11 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="TextFile1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

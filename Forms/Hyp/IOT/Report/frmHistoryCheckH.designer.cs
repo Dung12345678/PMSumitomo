@@ -49,6 +49,7 @@
 			this.nGHEÂMTHANHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.nGHEÂMTHANHHYPONICTHEOQRCODERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.xEMẢNHHYPONICTHEOQRCODEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.hIỂNTHỊFILECSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.grvData = new DevExpress.XtraGrid.Views.Grid.GridView();
 			this.colPID = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colSTT = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -107,9 +108,10 @@
             this.nGHELẠIFILEÂMTHANHToolStripMenuItem,
             this.nGHEÂMTHANHToolStripMenuItem,
             this.nGHEÂMTHANHHYPONICTHEOQRCODERToolStripMenuItem,
-            this.xEMẢNHHYPONICTHEOQRCODEToolStripMenuItem});
+            this.xEMẢNHHYPONICTHEOQRCODEToolStripMenuItem,
+            this.hIỂNTHỊFILECSVToolStripMenuItem});
 			this.contextMenuStrip1.Name = "contextMenuStrip1";
-			this.contextMenuStrip1.Size = new System.Drawing.Size(321, 114);
+			this.contextMenuStrip1.Size = new System.Drawing.Size(321, 158);
 			// 
 			// btnShowHistoryCheckOrderDetailH
 			// 
@@ -242,6 +244,13 @@
 			this.xEMẢNHHYPONICTHEOQRCODEToolStripMenuItem.Size = new System.Drawing.Size(320, 22);
 			this.xEMẢNHHYPONICTHEOQRCODEToolStripMenuItem.Text = "ẢNH SẢN PHẨM BƠM MỠ";
 			this.xEMẢNHHYPONICTHEOQRCODEToolStripMenuItem.Click += new System.EventHandler(this.xEMẢNHHYPONICTHEOQRCODEToolStripMenuItem_Click);
+			// 
+			// hIỂNTHỊFILECSVToolStripMenuItem
+			// 
+			this.hIỂNTHỊFILECSVToolStripMenuItem.Name = "hIỂNTHỊFILECSVToolStripMenuItem";
+			this.hIỂNTHỊFILECSVToolStripMenuItem.Size = new System.Drawing.Size(320, 22);
+			this.hIỂNTHỊFILECSVToolStripMenuItem.Text = "HIỂN THỊ FILE CSV";
+			this.hIỂNTHỊFILECSVToolStripMenuItem.Click += new System.EventHandler(this.hIỂNTHỊFILECSVToolStripMenuItem_Click);
 			// 
 			// grvData
 			// 
@@ -653,5 +662,6 @@
 		private System.Windows.Forms.ToolStripMenuItem nGHEÂMTHANHCHIỀURToolStripMenuItem1;
 		private System.Windows.Forms.ToolStripMenuItem nGHEÂMTHANHCHIỀURToolStripMenuItem2;
 		private System.Windows.Forms.ToolStripMenuItem nGHEÂMTHANHCHIỀURToolStripMenuItem3;
+		private System.Windows.Forms.ToolStripMenuItem hIỂNTHỊFILECSVToolStripMenuItem;
 	}
 }

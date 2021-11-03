@@ -1,0 +1,2 @@
+Tên app | Đường dẫn chứa file csv ở local | Đường dẫn chứa file csv trên server | Đường dẫn chứa file config version
+RTC || CSV || PCA_Data\\PCAAltax\\CSV || Version.txt

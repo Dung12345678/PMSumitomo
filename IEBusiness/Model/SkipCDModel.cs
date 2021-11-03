@@ -7,6 +7,7 @@ namespace IE.Model
 		private int iD;
 		private string product;
 		private string cDSkip;
+		private bool isVoltage;
 		public int ID
 		{
 			get { return iD; }
@@ -23,6 +24,12 @@ namespace IE.Model
 		{
 			get { return cDSkip; }
 			set { cDSkip = value; }
+		}
+	
+		public bool IsVoltage
+		{
+			get { return isVoltage; }
+			set { isVoltage = value; }
 		}
 	
 	}

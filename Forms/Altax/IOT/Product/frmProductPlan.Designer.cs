@@ -85,6 +85,8 @@
 			this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
 			this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
 			this.chkUnFinished = new System.Windows.Forms.CheckBox();
+			this.btnUpdateMotor = new System.Windows.Forms.ToolStripButton();
+			this.colColor = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.mnuMenu.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.grdData)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.grvData)).BeginInit();
@@ -125,7 +127,8 @@
             this.btnImportExcelDate,
             this.toolStripSeparator2,
             this.btnRestart,
-            this.btnExcel});
+            this.btnExcel,
+            this.btnUpdateMotor});
 			this.mnuMenu.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
 			this.mnuMenu.Location = new System.Drawing.Point(0, 0);
 			this.mnuMenu.Name = "mnuMenu";
@@ -377,7 +380,8 @@
             this.colOrderNew,
             this.colPrints,
             this.colStatus,
-            this.colShows});
+            this.colShows,
+            this.colColor});
 			this.grvData.GridControl = this.grdData;
 			this.grvData.HorzScrollStep = 5;
 			this.grvData.Name = "grvData";
@@ -994,6 +998,25 @@
 			this.chkUnFinished.UseVisualStyleBackColor = true;
 			this.chkUnFinished.CheckedChanged += new System.EventHandler(this.chkUnFinished_CheckedChanged);
 			// 
+			// btnUpdateMotor
+			// 
+			this.btnUpdateMotor.AutoSize = false;
+			this.btnUpdateMotor.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnUpdateMotor.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdateMotor.Image")));
+			this.btnUpdateMotor.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.btnUpdateMotor.Name = "btnUpdateMotor";
+			this.btnUpdateMotor.Size = new System.Drawing.Size(120, 37);
+			this.btnUpdateMotor.Tag = "";
+			this.btnUpdateMotor.Text = "Cập nhật mã motor";
+			this.btnUpdateMotor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			this.btnUpdateMotor.Click += new System.EventHandler(this.btnUpdateMotor_Click);
+			// 
+			// colColor
+			// 
+			this.colColor.Caption = "Color";
+			this.colColor.FieldName = "Color";
+			this.colColor.Name = "colColor";
+			// 
 			// frmProductPlan
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1086,5 +1109,7 @@
 		private System.Windows.Forms.CheckBox chkUnFinished;
 		private DevExpress.XtraGrid.Columns.GridColumn colShows;
 		private System.Windows.Forms.ToolStripButton btnExcel;
+		private System.Windows.Forms.ToolStripButton btnUpdateMotor;
+		private DevExpress.XtraGrid.Columns.GridColumn colColor;
 	}
 }

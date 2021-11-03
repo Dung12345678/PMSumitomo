@@ -33,6 +33,7 @@ namespace BMS
 			InitializeComponent();
 		}
 		private string _pathFileConfigUpdate = Path.Combine(Application.StartupPath, "DownloadAltax.txt");
+		private string _pathFileConfigCSV = Path.Combine(Application.StartupPath, "DownloadCSVAltax.txt");
 		private string _pathFolderLocal;
 		private string _pathUpdateServer;
 		private string _pathFileVersion;
@@ -455,6 +456,14 @@ namespace BMS
 		private void nGHEÂMTHANHCHIỀURToolStripMenuItem3_Click(object sender, EventArgs e)
 		{
 			RunSound("3", "R");
+		}
+
+		private void hIỂNTHỊFILECSVToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			string QRCode = TextUtils.ToString(grvData.GetFocusedRowCellValue(colQRCode));
+			string[] QRCodeSplit = QRCode.Split(' ');
+			if (QRCodeSplit.Count() > 1 || QRCodeSplit.Length > 1)
+				Lib.DownLoadFile(_pathFileConfigCSV, QRCodeSplit[0].Trim(), "csv");
 		}
 	}
 }

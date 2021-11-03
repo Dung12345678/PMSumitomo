@@ -333,7 +333,9 @@ namespace BMS
 			this.colStartTime.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colStartTime.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colStartTime.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+			this.colStartTime.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colStartTime.AppearanceHeader.Options.UseFont = true;
+			this.colStartTime.AppearanceHeader.Options.UseForeColor = true;
 			this.colStartTime.Caption = "Thời gian bắt đầu";
 			this.colStartTime.DisplayFormat.FormatString = "HH:mm:ss";
 			this.colStartTime.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
@@ -352,7 +354,9 @@ namespace BMS
 			this.colEndTime.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colEndTime.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colEndTime.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+			this.colEndTime.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colEndTime.AppearanceHeader.Options.UseFont = true;
+			this.colEndTime.AppearanceHeader.Options.UseForeColor = true;
 			this.colEndTime.Caption = "Thời gian kết thúc";
 			this.colEndTime.DisplayFormat.FormatString = "HH:mm:ss";
 			this.colEndTime.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;

@@ -49,7 +49,7 @@ namespace BMS
 			DataTable dtFind = TextUtilsStock.LoadDataFromSP("spGetLineRepairData", "A"
 				, new string[] { "@FromDate", "@EndDate", "@TextFind" }
 				, new object[] { from, to, txtFindText.Text.Trim() });
-			if (grvData.Columns.Count < dtFind.Columns.Count)
+			if (dtFind!=null && grvData.Columns.Count < dtFind.Columns.Count)
 			{
 				//Thêm cột theo dt
 				for (int i = 0; i < dtFind.Columns.Count - 6; i++)

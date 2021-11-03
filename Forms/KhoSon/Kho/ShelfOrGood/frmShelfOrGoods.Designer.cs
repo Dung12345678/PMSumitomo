@@ -45,6 +45,9 @@ namespace BMS
 			this.colID = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colArticleID = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colShelf = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colIsGeneral = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+			this.colPaintingColor = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.panel2 = new System.Windows.Forms.Panel();
 			this.btnSearch = new DevExpress.XtraEditors.SimpleButton();
@@ -53,13 +56,11 @@ namespace BMS
 			this.dtpTo = new System.Windows.Forms.DateTimePicker();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
-			this.colIsGeneral = new DevExpress.XtraGrid.Columns.GridColumn();
-			this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
 			this.toolStrip1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.grdData)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.grvData)).BeginInit();
-			this.panel2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
+			this.panel2.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// toolStrip1
@@ -184,7 +185,8 @@ namespace BMS
             this.colID,
             this.colArticleID,
             this.colShelf,
-            this.colIsGeneral});
+            this.colIsGeneral,
+            this.colPaintingColor});
 			this.grvData.GridControl = this.grdData;
 			this.grvData.HorzScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Always;
 			this.grvData.Name = "grvData";
@@ -269,6 +271,58 @@ namespace BMS
 			this.colShelf.VisibleIndex = 1;
 			this.colShelf.Width = 158;
 			// 
+			// colIsGeneral
+			// 
+			this.colIsGeneral.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F);
+			this.colIsGeneral.AppearanceCell.Options.UseFont = true;
+			this.colIsGeneral.AppearanceCell.Options.UseTextOptions = true;
+			this.colIsGeneral.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colIsGeneral.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colIsGeneral.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colIsGeneral.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+			this.colIsGeneral.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
+			this.colIsGeneral.AppearanceHeader.Options.UseFont = true;
+			this.colIsGeneral.AppearanceHeader.Options.UseForeColor = true;
+			this.colIsGeneral.AppearanceHeader.Options.UseTextOptions = true;
+			this.colIsGeneral.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colIsGeneral.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colIsGeneral.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colIsGeneral.Caption = "IsGeneral";
+			this.colIsGeneral.ColumnEdit = this.repositoryItemCheckEdit1;
+			this.colIsGeneral.FieldName = "IsGeneral";
+			this.colIsGeneral.Name = "colIsGeneral";
+			this.colIsGeneral.Visible = true;
+			this.colIsGeneral.VisibleIndex = 2;
+			this.colIsGeneral.Width = 139;
+			// 
+			// repositoryItemCheckEdit1
+			// 
+			this.repositoryItemCheckEdit1.AutoHeight = false;
+			this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
+			// 
+			// colPaintingColor
+			// 
+			this.colPaintingColor.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F);
+			this.colPaintingColor.AppearanceCell.Options.UseFont = true;
+			this.colPaintingColor.AppearanceCell.Options.UseTextOptions = true;
+			this.colPaintingColor.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colPaintingColor.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colPaintingColor.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colPaintingColor.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+			this.colPaintingColor.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
+			this.colPaintingColor.AppearanceHeader.Options.UseFont = true;
+			this.colPaintingColor.AppearanceHeader.Options.UseForeColor = true;
+			this.colPaintingColor.AppearanceHeader.Options.UseTextOptions = true;
+			this.colPaintingColor.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colPaintingColor.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colPaintingColor.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colPaintingColor.Caption = "Painting Color";
+			this.colPaintingColor.FieldName = "PaintingColor";
+			this.colPaintingColor.Name = "colPaintingColor";
+			this.colPaintingColor.Visible = true;
+			this.colPaintingColor.VisibleIndex = 3;
+			this.colPaintingColor.Width = 157;
+			// 
 			// panel2
 			// 
 			this.panel2.Controls.Add(this.btnSearch);
@@ -344,35 +398,6 @@ namespace BMS
 			this.label3.TabIndex = 33;
 			this.label3.Text = "Từ ngày: ";
 			// 
-			// colIsGeneral
-			// 
-			this.colIsGeneral.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F);
-			this.colIsGeneral.AppearanceCell.Options.UseFont = true;
-			this.colIsGeneral.AppearanceCell.Options.UseTextOptions = true;
-			this.colIsGeneral.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-			this.colIsGeneral.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.colIsGeneral.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.colIsGeneral.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-			this.colIsGeneral.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
-			this.colIsGeneral.AppearanceHeader.Options.UseFont = true;
-			this.colIsGeneral.AppearanceHeader.Options.UseForeColor = true;
-			this.colIsGeneral.AppearanceHeader.Options.UseTextOptions = true;
-			this.colIsGeneral.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-			this.colIsGeneral.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.colIsGeneral.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.colIsGeneral.Caption = "IsGeneral";
-			this.colIsGeneral.ColumnEdit = this.repositoryItemCheckEdit1;
-			this.colIsGeneral.FieldName = "IsGeneral";
-			this.colIsGeneral.Name = "colIsGeneral";
-			this.colIsGeneral.Visible = true;
-			this.colIsGeneral.VisibleIndex = 2;
-			this.colIsGeneral.Width = 139;
-			// 
-			// repositoryItemCheckEdit1
-			// 
-			this.repositoryItemCheckEdit1.AutoHeight = false;
-			this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
-			// 
 			// frmShelfOrGoods
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -390,9 +415,9 @@ namespace BMS
 			this.toolStrip1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.grdData)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.grvData)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
 			this.panel2.ResumeLayout(false);
 			this.panel2.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
 			this.ResumeLayout(false);
 
         }
@@ -423,5 +448,6 @@ namespace BMS
 		private System.Windows.Forms.Label label3;
 		private DevExpress.XtraGrid.Columns.GridColumn colIsGeneral;
 		private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
+		private DevExpress.XtraGrid.Columns.GridColumn colPaintingColor;
 	}
 }

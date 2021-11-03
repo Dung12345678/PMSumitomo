@@ -18,6 +18,7 @@ namespace BMS
 {
 	public partial class frmExportComponent : _Forms
 	{
+		int IndexCbo = 0;
 		public frmExportComponent()
 		{
 			InitializeComponent();
@@ -70,6 +71,7 @@ namespace BMS
 					cbStepCode.DisplayMember = "ProductStepCode";
 					cbStepCode.ValueMember = "ID";
 					cbStepCode.DataSource = dtStep;
+					cbStepCode.SelectedIndex = IndexCbo;
 				}
 			}
 		}
@@ -181,17 +183,19 @@ namespace BMS
 		private void cbStepCode_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			DataRow[] dr = dt.Select($"StepCode='{cbStepCode.Text.Trim()}'");
-			if (dr == null || dr.Length <= 0) return;
+			if (dr == null || dr.Length <= 0 ) return;
 
 			DataTable dtnew = dr.CopyToDataTable();
 
 			DataTable dtCurrent = (DataTable)grdData.DataSource;
-			if (dtCurrent != null) dtnew.Merge(dtCurrent);
+			if (dtCurrent != null && !Lib.ContainDataRowInDataTable(dtCurrent, dr[0])) dtnew.Merge(dtCurrent);
 			grdData.DataSource = dtnew;
+
 			for (int i = 2; i < grvData.Columns.Count; i++)
 			{
-				grvData.Columns[i].Caption = TextUtils.ToString(dt.Rows[0]["StepCode"]);
+				grvData.Columns[i].Caption = cbStepCode.Text.Trim();
 			}
+			IndexCbo = cbStepCode.SelectedIndex;
 		}
 	}
 }

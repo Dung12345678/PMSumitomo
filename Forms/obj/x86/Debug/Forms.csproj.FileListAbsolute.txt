@@ -22287,3 +22287,1103 @@ D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\
 D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\Forms\obj\x86\Debug\Forms.dll
 D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\Forms\obj\x86\Debug\Forms.pdb
 D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\Forms\obj\x86\Debug\Forms.dll.licenses
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\Forms.dll.config
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\Forms.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\Forms.pdb
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\BarcodeImaging.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\BaseBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\complex.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Charts.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.CodeParser.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Data.Desktop.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Data.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Images.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Office.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Pdf.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Pdf.v20.2.Drawing.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.PivotGrid.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Printing.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.RichEdit.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.RichEdit.v20.2.Export.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Sparkline.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Utils.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Utils.v20.2.UI.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Docking.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.DocumentViewer.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Grid.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.LayoutControl.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.PdfViewer.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraBars.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.Extensions.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.UI.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.Wizard.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraEditors.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraGrid.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraLayout.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraNavBar.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraPdfViewer.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraPivotGrid.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraPrinting.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraReports.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraReports.v20.2.Extensions.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraRichEdit.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraTreeList.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraVerticalGrid.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ExcelDataReader.DataSet.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ExcelDataReader.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\IEBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\NotificationWindow.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\PdfToImage.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\SDBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\STBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\Utilities.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraNavBar.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraGrid.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraBars.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraEditors.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Utils.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Core.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Mvvm.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Ribbon.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Grid.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Layout.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.DataVisualization.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.DataAccess.v20.2.UI.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.DataAccess.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpo.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraGauges.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Data.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraLayout.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Printing.v13.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraPrinting.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Sparkline.v13.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraDiagram.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Diagram.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.RichEdit.v13.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraTreeList.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Office.v13.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\BaseBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\IEBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\SDBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\STBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\Utilities.pdb
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Pdf.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Pdf.v20.2.Drawing.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.PivotGrid.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Printing.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Data.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Office.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.RichEdit.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Data.Desktop.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Utils.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.LayoutControl.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.DocumentViewer.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Docking.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Grid.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.PdfViewer.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraBars.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.UI.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.Wizard.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraEditors.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraGrid.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraLayout.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraNavBar.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraPdfViewer.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraPivotGrid.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraPrinting.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Sparkline.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Utils.v20.2.UI.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraReports.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraReports.v20.2.Extensions.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraRichEdit.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraTreeList.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraVerticalGrid.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraNavBar.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraGrid.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraBars.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraEditors.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Utils.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Core.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Mvvm.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Ribbon.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Grid.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpf.Layout.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.DataAccess.v20.2.UI.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.DataAccess.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Xpo.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraGauges.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Data.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraLayout.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Printing.v13.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraPrinting.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Sparkline.v13.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraDiagram.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Diagram.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.RichEdit.v13.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.XtraTreeList.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\DevExpress.Office.v13.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Printing.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Printing.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Printing.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Printing.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Data.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Data.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Data.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Data.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Office.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Utils.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Utils.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Utils.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Utils.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Xpf.PdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Xpf.PdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Xpf.PdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Xpf.PdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraBars.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraBars.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraBars.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraBars.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraCharts.v20.2.Wizard.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraCharts.v20.2.Wizard.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraCharts.v20.2.Wizard.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraCharts.v20.2.Wizard.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraCharts.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraCharts.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraCharts.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraCharts.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraEditors.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraEditors.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraEditors.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraEditors.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraLayout.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraLayout.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraLayout.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraLayout.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraPdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraPdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraPdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraPdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraPivotGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraPivotGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraPivotGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraPivotGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Utils.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Utils.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Utils.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Utils.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraReports.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraReports.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraReports.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraReports.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraReports.v20.2.Extensions.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraReports.v20.2.Extensions.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraReports.v20.2.Extensions.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraReports.v20.2.Extensions.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraVerticalGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraVerticalGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraVerticalGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraVerticalGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraBars.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraBars.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraBars.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraBars.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Utils.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Utils.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.DataAccess.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.DataAccess.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.DataAccess.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.DataAccess.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.DataAccess.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.DataAccess.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.DataAccess.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.DataAccess.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Xpo.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Xpo.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Xpo.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Xpo.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Data.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Data.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Data.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Data.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraLayout.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraLayout.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraLayout.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraLayout.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Diagram.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Diagram.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Diagram.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Diagram.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.XtraTreeList.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.XtraTreeList.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.XtraTreeList.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.XtraTreeList.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\de\DevExpress.Office.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\es\DevExpress.Office.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ja\DevExpress.Office.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\bin\x86\Debug\ru\DevExpress.Office.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.csproj.AssemblyReference.cache
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.csproj.ResolveComReference.cache
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistory.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPermission.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPermissionCategory.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPermissionGroup.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPermissionManager.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmRole.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmUserGroup.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmUserGroupDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmUserGroupPermission.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmExportAndon.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmConfigShipToDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmConfigShipTo.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCopyStep.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCopyWorkingToGroup.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCheckForceDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportCheckForceExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductForceGun.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductPlanDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportAssemblyDateExcelAltax.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportProductPlanExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductCheckHistoryDetailPCAAltax.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryCheckOrderDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportSkipCDExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSkip.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSkipDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmReduceSpeed.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmReduceSpeedDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCheckMotor.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCheckMotorDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmChooseBackupVersion.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHypMold.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHypMoldDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHypMoldLine.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryCheckHP.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryCheckDetailHP.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditTools.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAreaDepartHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportToolExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmStageMachineHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeGroupDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeWorkingStepDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditAreas.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditDepartment.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditMachineHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditStageWorker.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmStageWorkerHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditStageHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditKnife.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeDisposed.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeList.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeProcessedChart.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeProcessedList.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeSharpen.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeCount.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportKnifeCount.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditJig.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmJigList.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmShapeDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmShapeList.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeWorkingH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeStepDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeWorkingDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmEditGoods.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmGoods.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportGoodsRegisterExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportGoodsExcelH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmRegister.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeChart.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmJigChart.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmKnifeInformation.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmDataAccess.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmJigLineInformation.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHypMoldLineInformation.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPart.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPartDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmWorkingDaoJig.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmWorkingDaoJigDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmExportAndonHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportAssemblyDateExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportProductExcelH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportProductionPlanExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmWeight.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmweightJig.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCopyAll.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCopyWorkingToGroupH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCopyStepH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProceductionPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductForceGunDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductForceGunExcelH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductForceGunH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductStepDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductWorkingDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductWorkingH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmWorkingDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmWorkingH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductionPlanDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmWorkingStepDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmConfigFormulaAllDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmConfigFormulaAllH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.ConfigFormulaDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmConfigFormulaCD5H.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmConfigShipToDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmConfigShipToH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductCheckHistoryDetailPCA.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductGroupDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductTypeH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmFindDataCD1H.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryCheckDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryCheckH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryCheckOrderDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmThongKePhanTichDataH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductWorkingAudit.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportSkipCDExcelH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSkipH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSkipDetailsH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmReduceSpeedDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmReduceSpeedH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryShelf.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSequence.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmShelf.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmShelfDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditMotorPart.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditPositionList.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmMotorHistoryImEx.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmMotorImExPart.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmMotorPartDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmMotorPartList.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditHistory.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAddEditProduct.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\ST.Business.frmImportExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportExcelPart.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPartImExHistory.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductListSON.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSonLoading.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSonPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAssemblyOrder.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAssemblyOrderDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryPartOut.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryPartOutDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImPortOrderPart.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImPortShelfAndGoods.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmShelfOrGoods.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmShelfOrGoodsDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSonCDDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSonCD.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCD.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmLocation.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmLocationDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmStockCDDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmStockCD.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmError.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmErrorDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryRepairLine.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPartQRCode.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPartQRCodeDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmExportAssemble.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmExportComponent.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmReasonChange.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmReportTester.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportGearExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmThongKePhanTichData.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmFindDataCD1.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmGearWorking.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmGearWorkingDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmListOrder.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPlanDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmGearInfo.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryCheckDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmHistoryCheck.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmGear.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmGearDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmScript.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductType.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductGroupDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCustomer.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmModuleManager.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductWorking.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmImportProductExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmShowExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmWorking.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductWorkingDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProductStepDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmWorkingStepDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmWorkingDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.frmSharedControl.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSendEmailAttach.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmConfigSystem.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmDepartment.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.FrmLoading.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmCopyExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmSendMail.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.Other.PagingToolbar.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmProduct.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmChooseEmployee.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmShowStaff.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmStaffGroup.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmStaffManager.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmAppSettings.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.Properties.Resources.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmChangePassword.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmStt.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\BMS.frmTestta2.resources
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.csproj.GenerateResource.cache
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.dll.licenses
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.csproj.CopyComplete
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.dll
+D:\project\Sumitomo\PM\Current\PM-New\Forms\obj\x86\Debug\Forms.pdb
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\Forms.dll.config
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\Forms.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\Forms.pdb
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\BarcodeImaging.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\BaseBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\complex.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Charts.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.CodeParser.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Data.Desktop.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Data.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Images.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Office.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Pdf.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Pdf.v20.2.Drawing.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.PivotGrid.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Printing.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.RichEdit.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.RichEdit.v20.2.Export.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Sparkline.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Utils.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Utils.v20.2.UI.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Docking.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.DocumentViewer.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Grid.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.LayoutControl.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.PdfViewer.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraBars.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.Extensions.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.UI.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.Wizard.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraEditors.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraGrid.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraLayout.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraNavBar.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraPdfViewer.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraPivotGrid.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraPrinting.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraReports.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraReports.v20.2.Extensions.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraRichEdit.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraTreeList.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraVerticalGrid.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ExcelDataReader.DataSet.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ExcelDataReader.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\IEBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\NotificationWindow.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\PdfToImage.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\SDBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\STBusiness.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\Utilities.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraNavBar.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraGrid.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraBars.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraEditors.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Utils.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Core.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Mvvm.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Ribbon.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Grid.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Layout.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.DataVisualization.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.DataAccess.v20.2.UI.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.DataAccess.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpo.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraGauges.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Data.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraLayout.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Printing.v13.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraPrinting.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Sparkline.v13.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraDiagram.v20.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Diagram.v20.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.RichEdit.v13.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraTreeList.v13.2.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Office.v13.2.Core.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\BaseBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\IEBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\SDBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\STBusiness.pdb
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\Utilities.pdb
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Pdf.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Pdf.v20.2.Drawing.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.PivotGrid.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Printing.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Data.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Office.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.RichEdit.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Data.Desktop.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Utils.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.LayoutControl.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.DocumentViewer.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Docking.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Grid.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.PdfViewer.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraBars.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.UI.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.Wizard.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraCharts.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraEditors.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraGrid.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraLayout.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraNavBar.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraPdfViewer.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraPivotGrid.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraPrinting.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Sparkline.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Utils.v20.2.UI.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraReports.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraReports.v20.2.Extensions.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraRichEdit.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraTreeList.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraVerticalGrid.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraNavBar.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraGrid.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraBars.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraEditors.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Utils.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Core.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Mvvm.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Ribbon.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Grid.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpf.Layout.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.DataAccess.v20.2.UI.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.DataAccess.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Xpo.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraGauges.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Data.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraLayout.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Printing.v13.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraPrinting.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Sparkline.v13.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraDiagram.v20.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Diagram.v20.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.RichEdit.v13.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.XtraTreeList.v13.2.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\DevExpress.Office.v13.2.Core.xml
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Printing.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Printing.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Printing.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Printing.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Data.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Data.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Data.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Data.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Office.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Utils.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Utils.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Utils.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Utils.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Xpf.PdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Xpf.PdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Xpf.PdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Xpf.PdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraBars.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraBars.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraBars.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraBars.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraCharts.v20.2.Wizard.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraCharts.v20.2.Wizard.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraCharts.v20.2.Wizard.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraCharts.v20.2.Wizard.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraCharts.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraCharts.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraCharts.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraCharts.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraEditors.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraEditors.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraEditors.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraEditors.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraLayout.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraLayout.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraLayout.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraLayout.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraPdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraPdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraPdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraPdfViewer.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraPivotGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraPivotGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraPivotGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraPivotGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Utils.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Utils.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Utils.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Utils.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraReports.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraReports.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraReports.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraReports.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraReports.v20.2.Extensions.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraReports.v20.2.Extensions.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraReports.v20.2.Extensions.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraReports.v20.2.Extensions.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraVerticalGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraVerticalGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraVerticalGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraVerticalGrid.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraBars.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraBars.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraBars.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraBars.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Utils.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Utils.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.DataAccess.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.DataAccess.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.DataAccess.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.DataAccess.v20.2.UI.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.DataAccess.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.DataAccess.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.DataAccess.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.DataAccess.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Xpo.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Xpo.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Xpo.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Xpo.v20.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Data.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Data.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Data.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Data.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraLayout.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraLayout.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraLayout.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraLayout.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Diagram.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Diagram.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Diagram.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Diagram.v20.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.XtraTreeList.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.XtraTreeList.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.XtraTreeList.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.XtraTreeList.v13.2.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\de\DevExpress.Office.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\es\DevExpress.Office.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ja\DevExpress.Office.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\ru\DevExpress.Office.v13.2.Core.resources.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.csproj.AssemblyReference.cache
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.csproj.ResolveComReference.cache
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistory.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPermission.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPermissionCategory.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPermissionGroup.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPermissionManager.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmRole.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmUserGroup.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmUserGroupDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmUserGroupPermission.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmExportAndon.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmConfigShipToDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmConfigShipTo.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCopyStep.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCopyWorkingToGroup.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCheckForceDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportCheckForceExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductForceGun.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductPlanDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportAssemblyDateExcelAltax.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportProductPlanExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductCheckHistoryDetailPCAAltax.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryCheckOrderDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportSkipCDExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSkip.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSkipDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmReduceSpeed.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmReduceSpeedDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCheckMotor.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCheckMotorDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmChooseBackupVersion.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHypMold.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHypMoldDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHypMoldLine.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryCheckHP.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryCheckDetailHP.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditTools.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAreaDepartHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportToolExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmStageMachineHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeGroupDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeWorkingStepDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditAreas.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditDepartment.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditMachineHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditStageWorker.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmStageWorkerHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditStageHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditKnife.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeDisposed.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeList.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeProcessedChart.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeProcessedList.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeSharpen.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeCount.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportKnifeCount.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditJig.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmJigList.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmShapeDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmShapeList.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeWorkingH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeStepDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeWorkingDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmEditGoods.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmGoods.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportGoodsRegisterExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportGoodsExcelH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmRegister.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeChart.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmJigChart.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmKnifeInformation.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmDataAccess.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmJigLineInformation.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHypMoldLineInformation.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPart.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPartDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWorkingDaoJig.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWorkingDaoJigDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmExportAndonHyp.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportAssemblyDateExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportProductExcelH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportProductionPlanExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWeight.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmweightJig.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCopyAll.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCopyWorkingToGroupH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCopyStepH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProceductionPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductForceGunDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductForceGunExcelH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductForceGunH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductStepDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductWorkingDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductWorkingH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWorkingDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWorkingH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductionPlanDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWorkingStepDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmConfigFormulaAllDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmConfigFormulaAllH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.ConfigFormulaDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmConfigFormulaCD5H.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmConfigShipToDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmConfigShipToH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductCheckHistoryDetailPCA.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductGroupDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductTypeH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmFindDataCD1H.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryCheckDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryCheckH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryCheckOrderDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmThongKePhanTichDataH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductWorkingAudit.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportSkipCDExcelH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSkipH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSkipDetailsH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmReduceSpeedDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmReduceSpeedH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryShelf.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSequence.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmShelf.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmShelfDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditMotorPart.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditPositionList.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmMotorHistoryImEx.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmMotorImExPart.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmMotorPartDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmMotorPartList.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditHistory.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAddEditProduct.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\ST.Business.frmImportExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportExcelPart.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPartImExHistory.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductListSON.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSonLoading.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSonPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAssemblyOrder.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAssemblyOrderDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryPartOut.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryPartOutDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImPortOrderPart.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImPortShelfAndGoods.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmShelfOrGoods.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmShelfOrGoodsDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSonCDDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSonCD.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCD.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmLocation.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmLocationDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmStockCDDetails.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmStockCD.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmError.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmErrorDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryRepairLine.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPartQRCode.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPartQRCodeDetailH.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmExportAssemble.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmExportComponent.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmReasonChange.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmReportTester.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportGearExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmThongKePhanTichData.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmFindDataCD1.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmGearWorking.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmGearWorkingDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmListOrder.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPlanDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmPlan.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmGearInfo.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryCheckDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmHistoryCheck.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmGear.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmGearDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmScript.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductType.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductGroupDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCustomer.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmModuleManager.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductWorking.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmImportProductExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmShowExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWorking.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductWorkingDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProductStepDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWorkingStepDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWorkingDetail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.frmSharedControl.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSendEmailAttach.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmConfigSystem.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmDepartment.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.FrmLoading.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmCopyExcel.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmSendMail.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.Other.PagingToolbar.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmProduct.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmChooseEmployee.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmShowStaff.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmStaffGroup.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmStaffManager.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmAppSettings.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.Properties.Resources.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmChangePassword.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmStt.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmTestta2.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.csproj.GenerateResource.cache
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.csproj.CopyComplete
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.dll
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\Forms.pdb
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmWeightDetailAltax.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\obj\x86\Debug\BMS.frmweightJigAltax.resources
+D:\project\Sumitomo\PM\Current\PM-New - Copy\Forms\bin\x86\Debug\TextFile1.txt

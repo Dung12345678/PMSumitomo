@@ -52,6 +52,16 @@
 			<alias>Is General</alias>
 			<number>4</number>
 		</column>
+		<column>
+			<name>paintingColor</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Painting Color</alias>
+			<number>5</number>
+		</column>
 	</Table>
 
 </Tables>

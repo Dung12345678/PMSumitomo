@@ -35,6 +35,7 @@ namespace BMS
 		{
 			txtProduct.Text = Lib.ToString(_skipCDModel.Product);
 			rtxtCDSkip.Text = Lib.ToString(_skipCDModel.CDSkip);
+			chkIsVoltage.Checked = _skipCDModel.IsVoltage;
 		}
 
 		/// <summary>
@@ -72,7 +73,7 @@ namespace BMS
 
 			_skipCDModel.Product = Lib.ToString(txtProduct.Text.Trim());
 			_skipCDModel.CDSkip = Lib.ToString(rtxtCDSkip.Text.Trim());
-
+			_skipCDModel.IsVoltage = chkIsVoltage.Checked;
 			if (_skipCDModel.ID > 0)
 			{
 				SkipCDBO.Instance.Update(_skipCDModel);

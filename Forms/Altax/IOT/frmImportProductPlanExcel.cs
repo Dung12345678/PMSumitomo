@@ -19,7 +19,7 @@ using BMS.Utils;
 
 namespace BMS
 {
-	
+
 	public partial class frmImportProductPlanExcel : _Forms
 	{
 		private DataSet ds;
@@ -240,7 +240,7 @@ namespace BMS
 					txtRate.Invoke((Action)(() => { txtRate.Text = string.Format("{0}/{1}", i - 2, rowCount - 3); }));
 					string _productCode = Lib.ToString(grvData.GetRowCellValue(i, "F7"));
 					string _ordercode = Lib.ToString(grvData.GetRowCellValue(i, "F5"));
-					int _cnt= Lib.ToInt(grvData.GetRowCellValue(i, "F6"));
+					int _cnt = Lib.ToInt(grvData.GetRowCellValue(i, "F6"));
 					//Kiểm tra nếu mã nhóm hoặc mã sản phẩm trống thì next
 					if (string.IsNullOrEmpty(_ordercode) || string.IsNullOrEmpty(_productCode))
 					{
@@ -263,7 +263,7 @@ namespace BMS
 						productionPlanModel.JgDate = Lib.ToDate2(grvData.GetRowCellValue(i, "DATEF4").ToString());
 					}
 
-					productionPlanModel.Cnt =_cnt;//Mô tả CNT
+					productionPlanModel.Cnt = _cnt;//Mô tả CNT
 					productionPlanModel.Description = Lib.ToString(grvData.GetRowCellValue(i, "F8"));//Description
 					productionPlanModel.Qty = Lib.ToInt(grvData.GetRowCellValue(i, "F9"));
 					productionPlanModel.SalesOrder = Lib.ToString(grvData.GetRowCellValue(i, "F10")); // Order
@@ -279,10 +279,30 @@ namespace BMS
 					{
 						productionPlanModel.RequestDate = Lib.ToDate2(grvData.GetRowCellValue(i, "DATEF18"));
 					}
-					productionPlanModel.MaMoto = Lib.ToString(grvData.GetRowCellValue(i, "F21"));
+
 					productionPlanModel.MaMoto1 = Lib.ToString(grvData.GetRowCellValue(i, "F22"));
 					productionPlanModel.OrderCodeFull = productionPlanModel.OrderCode + productionPlanModel.Cnt;
 					productionPlanModel.AssemblyDate = new DateTime(9998, 01, 01);
+					//productionPlanModel.MaMoto = Lib.ToString(grvData.GetRowCellValue(i, "F21"));
+					if (Lib.ToString(grvData.GetRowCellValue(i, "F21")) == "")
+					{
+						try
+						{
+							string MotorValue = Lib.ToString(TextUtils.ExcuteScalar($"SELECT TOP 1 ArticleID FROM ShiStock.dbo.OrderPart WHERE OrderCodeAndCnt='{productionPlanModel.OrderCodeFull}'"));
+							if (MotorValue != "")
+							{
+								productionPlanModel.MaMoto = MotorValue;
+							}
+							else
+							{
+								productionPlanModel.MaMoto = Lib.ToString(grvData.GetRowCellValue(i, "F21"));
+							}
+						}
+						catch
+						{
+
+						}
+					}
 					#endregion
 
 					if (arr.Count > 0)

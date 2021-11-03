@@ -31,11 +31,6 @@ namespace BMS
         {
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmExportAssemble));
-			DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-			DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
-			DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
-			DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
-			DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
 			this.grvDetail = new DevExpress.XtraGrid.Views.Grid.GridView();
 			this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -94,6 +89,7 @@ namespace BMS
 			this.chkLinhKienLapRap = new DevExpress.XtraEditors.CheckEdit();
 			this.chkLapRap = new DevExpress.XtraEditors.CheckEdit();
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+			this.cbStepCode = new System.Windows.Forms.ComboBox();
 			this.label2 = new System.Windows.Forms.Label();
 			this.txtQRCode = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
@@ -107,13 +103,16 @@ namespace BMS
 			this.label8 = new System.Windows.Forms.Label();
 			this.grdLinhKienLapRap = new DevExpress.XtraGrid.GridControl();
 			this.grvLinhKienLapRap = new DevExpress.XtraGrid.Views.Grid.GridView();
+			this.colCodeFull = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colCodeShort = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.repositoryItemMemoEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit();
 			this.colDelete = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.btnDelete = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
-			this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-			this.colCodeFull = new DevExpress.XtraGrid.Columns.GridColumn();
-			this.colCodeShort = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colPartCode = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colQRCode = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colOrder = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colRealValue = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colRealValue1 = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colRealValue2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -133,12 +132,40 @@ namespace BMS
 			this.colRealValue16 = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colRealValue17 = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colRealValue18 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue19 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue20 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue21 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue22 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue23 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue24 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue25 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue26 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue27 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue28 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue29 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue30 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue31 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue32 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue33 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue34 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue35 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue36 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue37 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue38 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue39 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue40 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue41 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue42 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue43 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue44 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue45 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue46 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue47 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue48 = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colRealValue49 = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.btnExportExcelLinhKien = new DevExpress.XtraEditors.SimpleButton();
-			this.cbAccessory = new DevExpress.XtraEditors.SearchLookUpEdit();
-			this.searchLookUpEdit1View = new DevExpress.XtraGrid.Views.Grid.GridView();
-			this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-			this.cbStepCode = new DevExpress.XtraEditors.CheckedComboBoxEdit();
 			this.btnReset = new DevExpress.XtraEditors.SimpleButton();
+			this.cbAccessory = new System.Windows.Forms.ComboBox();
 			((System.ComponentModel.ISupportInitialize)(this.grvDetail)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.grdLapRap)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.grvLapRap)).BeginInit();
@@ -162,9 +189,6 @@ namespace BMS
 			((System.ComponentModel.ISupportInitialize)(this.grvLinhKienLapRap)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.repositoryItemMemoEdit2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.btnDelete)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.cbAccessory.Properties)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.searchLookUpEdit1View)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.cbStepCode.Properties)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// grvDetail
@@ -1112,7 +1136,7 @@ namespace BMS
 			this.colValue.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colValue.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colValue.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.colValue.Caption = "Value";
+			this.colValue.Caption = "Giá trị thực tế";
 			this.colValue.FieldName = "RealValue";
 			this.colValue.Name = "colValue";
 			this.colValue.OptionsColumn.AllowEdit = false;
@@ -1260,6 +1284,7 @@ namespace BMS
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.86189F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.61321F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.851828F));
+			this.tableLayoutPanel1.Controls.Add(this.cbStepCode, 2, 3);
 			this.tableLayoutPanel1.Controls.Add(this.label6, 0, 3);
 			this.tableLayoutPanel1.Controls.Add(this.label4, 0, 2);
 			this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
@@ -1268,12 +1293,11 @@ namespace BMS
 			this.tableLayoutPanel1.Controls.Add(this.txtQRCode, 1, 0);
 			this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
 			this.tableLayoutPanel1.Controls.Add(this.splitContainer1, 0, 4);
-			this.tableLayoutPanel1.Controls.Add(this.cbAccessory, 1, 3);
 			this.tableLayoutPanel1.Controls.Add(this.txtOrderCode, 1, 2);
-			this.tableLayoutPanel1.Controls.Add(this.cbStepCode, 2, 3);
 			this.tableLayoutPanel1.Controls.Add(this.btnReset, 4, 3);
 			this.tableLayoutPanel1.Controls.Add(this.chkLapRap, 3, 0);
 			this.tableLayoutPanel1.Controls.Add(this.chkLinhKienLapRap, 3, 1);
+			this.tableLayoutPanel1.Controls.Add(this.cbAccessory, 1, 3);
 			this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 60);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -1286,6 +1310,18 @@ namespace BMS
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
 			this.tableLayoutPanel1.Size = new System.Drawing.Size(1559, 716);
 			this.tableLayoutPanel1.TabIndex = 17;
+			// 
+			// cbStepCode
+			// 
+			this.cbStepCode.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.cbStepCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
+			this.cbStepCode.FormattingEnabled = true;
+			this.cbStepCode.Location = new System.Drawing.Point(839, 121);
+			this.cbStepCode.Margin = new System.Windows.Forms.Padding(1);
+			this.cbStepCode.Name = "cbStepCode";
+			this.cbStepCode.Size = new System.Drawing.Size(322, 37);
+			this.cbStepCode.TabIndex = 32;
+			this.cbStepCode.SelectedIndexChanged += new System.EventHandler(this.cbStepCode_SelectedIndexChanged);
 			// 
 			// label2
 			// 
@@ -1456,11 +1492,14 @@ namespace BMS
 			// 
 			this.grvLinhKienLapRap.ColumnPanelRowHeight = 50;
 			this.grvLinhKienLapRap.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.colDelete,
-            this.gridColumn3,
             this.colCodeFull,
             this.colCodeShort,
+            this.gridColumn3,
+            this.gridColumn1,
+            this.colDelete,
+            this.colPartCode,
+            this.colQRCode,
+            this.colOrder,
             this.colRealValue,
             this.colRealValue1,
             this.colRealValue2,
@@ -1479,7 +1518,38 @@ namespace BMS
             this.colRealValue15,
             this.colRealValue16,
             this.colRealValue17,
-            this.colRealValue18});
+            this.colRealValue18,
+            this.colRealValue19,
+            this.colRealValue20,
+            this.colRealValue21,
+            this.colRealValue22,
+            this.colRealValue23,
+            this.colRealValue24,
+            this.colRealValue25,
+            this.colRealValue26,
+            this.colRealValue27,
+            this.colRealValue28,
+            this.colRealValue29,
+            this.colRealValue30,
+            this.colRealValue31,
+            this.colRealValue32,
+            this.colRealValue33,
+            this.colRealValue34,
+            this.colRealValue35,
+            this.colRealValue36,
+            this.colRealValue37,
+            this.colRealValue38,
+            this.colRealValue39,
+            this.colRealValue40,
+            this.colRealValue41,
+            this.colRealValue42,
+            this.colRealValue43,
+            this.colRealValue44,
+            this.colRealValue45,
+            this.colRealValue46,
+            this.colRealValue47,
+            this.colRealValue48,
+            this.colRealValue49});
 			this.grvLinhKienLapRap.GridControl = this.grdLinhKienLapRap;
 			this.grvLinhKienLapRap.Name = "grvLinhKienLapRap";
 			this.grvLinhKienLapRap.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
@@ -1489,19 +1559,98 @@ namespace BMS
 			this.grvLinhKienLapRap.OptionsCustomization.AllowColumnMoving = false;
 			this.grvLinhKienLapRap.OptionsCustomization.AllowQuickHideColumns = false;
 			this.grvLinhKienLapRap.OptionsFind.ShowCloseButton = false;
+			this.grvLinhKienLapRap.OptionsView.ColumnAutoWidth = false;
 			this.grvLinhKienLapRap.OptionsView.RowAutoHeight = true;
 			this.grvLinhKienLapRap.OptionsView.ShowGroupPanel = false;
 			this.grvLinhKienLapRap.RowHeight = 25;
 			this.grvLinhKienLapRap.ScrollStyle = DevExpress.XtraGrid.Views.Grid.ScrollStyleFlags.LiveVertScroll;
 			// 
+			// colCodeFull
+			// 
+			this.colCodeFull.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+			this.colCodeFull.AppearanceCell.ForeColor = System.Drawing.Color.Black;
+			this.colCodeFull.AppearanceCell.Options.UseFont = true;
+			this.colCodeFull.AppearanceCell.Options.UseForeColor = true;
+			this.colCodeFull.AppearanceCell.Options.UseTextOptions = true;
+			this.colCodeFull.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colCodeFull.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colCodeFull.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.colCodeFull.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colCodeFull.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
+			this.colCodeFull.AppearanceHeader.Options.UseBackColor = true;
+			this.colCodeFull.AppearanceHeader.Options.UseFont = true;
+			this.colCodeFull.AppearanceHeader.Options.UseForeColor = true;
+			this.colCodeFull.AppearanceHeader.Options.UseTextOptions = true;
+			this.colCodeFull.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colCodeFull.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colCodeFull.Caption = "HLM";
+			this.colCodeFull.FieldName = "CodeFull";
+			this.colCodeFull.Name = "colCodeFull";
+			this.colCodeFull.OptionsColumn.AllowEdit = false;
+			this.colCodeFull.OptionsColumn.AllowFocus = false;
+			this.colCodeFull.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colCodeFull.OptionsColumn.ReadOnly = true;
+			this.colCodeFull.Width = 65;
+			// 
+			// colCodeShort
+			// 
+			this.colCodeShort.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+			this.colCodeShort.AppearanceCell.ForeColor = System.Drawing.Color.Black;
+			this.colCodeShort.AppearanceCell.Options.UseFont = true;
+			this.colCodeShort.AppearanceCell.Options.UseForeColor = true;
+			this.colCodeShort.AppearanceCell.Options.UseTextOptions = true;
+			this.colCodeShort.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colCodeShort.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colCodeShort.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.colCodeShort.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colCodeShort.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
+			this.colCodeShort.AppearanceHeader.Options.UseBackColor = true;
+			this.colCodeShort.AppearanceHeader.Options.UseFont = true;
+			this.colCodeShort.AppearanceHeader.Options.UseForeColor = true;
+			this.colCodeShort.AppearanceHeader.Options.UseTextOptions = true;
+			this.colCodeShort.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colCodeShort.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colCodeShort.Caption = "HLM";
+			this.colCodeShort.FieldName = "CodeShort";
+			this.colCodeShort.Name = "colCodeShort";
+			this.colCodeShort.OptionsColumn.AllowEdit = false;
+			this.colCodeShort.OptionsColumn.AllowFocus = false;
+			this.colCodeShort.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colCodeShort.OptionsColumn.ReadOnly = true;
+			this.colCodeShort.Width = 65;
+			// 
+			// gridColumn3
+			// 
+			this.gridColumn3.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+			this.gridColumn3.AppearanceCell.Options.UseFont = true;
+			this.gridColumn3.AppearanceCell.Options.UseTextOptions = true;
+			this.gridColumn3.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.gridColumn3.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.gridColumn3.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.gridColumn3.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+			this.gridColumn3.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
+			this.gridColumn3.AppearanceHeader.Options.UseFont = true;
+			this.gridColumn3.AppearanceHeader.Options.UseForeColor = true;
+			this.gridColumn3.AppearanceHeader.Options.UseTextOptions = true;
+			this.gridColumn3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.gridColumn3.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.gridColumn3.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.gridColumn3.Caption = "STT";
+			this.gridColumn3.FieldName = "RowNum";
+			this.gridColumn3.Name = "gridColumn3";
+			this.gridColumn3.OptionsColumn.AllowEdit = false;
+			this.gridColumn3.OptionsColumn.AllowFocus = false;
+			this.gridColumn3.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.gridColumn3.Width = 65;
+			// 
 			// gridColumn1
 			// 
-			this.gridColumn1.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.gridColumn1.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 9F);
 			this.gridColumn1.AppearanceCell.Options.UseFont = true;
 			this.gridColumn1.AppearanceCell.Options.UseTextOptions = true;
 			this.gridColumn1.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.gridColumn1.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.gridColumn1.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.gridColumn1.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
 			this.gridColumn1.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.gridColumn1.AppearanceHeader.Options.UseFont = true;
 			this.gridColumn1.AppearanceHeader.Options.UseForeColor = true;
@@ -1514,6 +1663,9 @@ namespace BMS
 			this.gridColumn1.FieldName = "ID";
 			this.gridColumn1.Name = "gridColumn1";
 			this.gridColumn1.OptionsColumn.AllowEdit = false;
+			this.gridColumn1.OptionsColumn.AllowFocus = false;
+			this.gridColumn1.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.gridColumn1.Width = 65;
 			// 
 			// repositoryItemMemoEdit2
 			// 
@@ -1527,108 +1679,111 @@ namespace BMS
 			this.colDelete.OptionsFilter.AllowFilter = false;
 			this.colDelete.Visible = true;
 			this.colDelete.VisibleIndex = 0;
-			this.colDelete.Width = 51;
+			this.colDelete.Width = 65;
 			// 
 			// btnDelete
 			// 
 			this.btnDelete.AutoHeight = false;
-			editorButtonImageOptions1.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions1.Image")));
 			this.btnDelete.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Delete)});
 			this.btnDelete.Name = "btnDelete";
 			this.btnDelete.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
 			this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
 			// 
-			// gridColumn3
+			// colPartCode
 			// 
-			this.gridColumn3.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.gridColumn3.AppearanceCell.Options.UseFont = true;
-			this.gridColumn3.AppearanceCell.Options.UseTextOptions = true;
-			this.gridColumn3.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-			this.gridColumn3.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.gridColumn3.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.gridColumn3.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.gridColumn3.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
-			this.gridColumn3.AppearanceHeader.Options.UseFont = true;
-			this.gridColumn3.AppearanceHeader.Options.UseForeColor = true;
-			this.gridColumn3.AppearanceHeader.Options.UseTextOptions = true;
-			this.gridColumn3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-			this.gridColumn3.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.gridColumn3.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.gridColumn3.Caption = "STT";
-			this.gridColumn3.FieldName = "RowNum";
-			this.gridColumn3.Name = "gridColumn3";
-			this.gridColumn3.Width = 53;
+			this.colPartCode.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+			this.colPartCode.AppearanceCell.Options.UseFont = true;
+			this.colPartCode.AppearanceCell.Options.UseTextOptions = true;
+			this.colPartCode.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colPartCode.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colPartCode.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colPartCode.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.colPartCode.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colPartCode.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
+			this.colPartCode.AppearanceHeader.Options.UseBackColor = true;
+			this.colPartCode.AppearanceHeader.Options.UseFont = true;
+			this.colPartCode.AppearanceHeader.Options.UseForeColor = true;
+			this.colPartCode.AppearanceHeader.Options.UseTextOptions = true;
+			this.colPartCode.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colPartCode.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colPartCode.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colPartCode.Caption = "Mã linh kiện";
+			this.colPartCode.ColumnEdit = this.repositoryItemMemoEdit2;
+			this.colPartCode.FieldName = "PartCode";
+			this.colPartCode.Name = "colPartCode";
+			this.colPartCode.Visible = true;
+			this.colPartCode.VisibleIndex = 1;
+			this.colPartCode.Width = 100;
 			// 
-			// colCodeFull
+			// colQRCode
 			// 
-			this.colCodeFull.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.colCodeFull.AppearanceCell.ForeColor = System.Drawing.Color.Black;
-			this.colCodeFull.AppearanceCell.Options.UseFont = true;
-			this.colCodeFull.AppearanceCell.Options.UseForeColor = true;
-			this.colCodeFull.AppearanceCell.Options.UseTextOptions = true;
-			this.colCodeFull.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.colCodeFull.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.colCodeFull.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-			this.colCodeFull.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.colCodeFull.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
-			this.colCodeFull.AppearanceHeader.Options.UseBackColor = true;
-			this.colCodeFull.AppearanceHeader.Options.UseFont = true;
-			this.colCodeFull.AppearanceHeader.Options.UseForeColor = true;
-			this.colCodeFull.AppearanceHeader.Options.UseTextOptions = true;
-			this.colCodeFull.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.colCodeFull.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.colCodeFull.Caption = "HLM";
-			this.colCodeFull.FieldName = "CodeFull";
-			this.colCodeFull.Name = "colCodeFull";
-			this.colCodeFull.OptionsColumn.AllowEdit = false;
-			this.colCodeFull.OptionsColumn.ReadOnly = true;
-			this.colCodeFull.Visible = true;
-			this.colCodeFull.VisibleIndex = 1;
-			this.colCodeFull.Width = 179;
+			this.colQRCode.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+			this.colQRCode.AppearanceCell.Options.UseFont = true;
+			this.colQRCode.AppearanceCell.Options.UseTextOptions = true;
+			this.colQRCode.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colQRCode.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colQRCode.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colQRCode.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.colQRCode.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colQRCode.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
+			this.colQRCode.AppearanceHeader.Options.UseBackColor = true;
+			this.colQRCode.AppearanceHeader.Options.UseFont = true;
+			this.colQRCode.AppearanceHeader.Options.UseForeColor = true;
+			this.colQRCode.AppearanceHeader.Options.UseTextOptions = true;
+			this.colQRCode.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colQRCode.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colQRCode.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colQRCode.Caption = "Mã QR-Code";
+			this.colQRCode.ColumnEdit = this.repositoryItemMemoEdit2;
+			this.colQRCode.FieldName = "QRCode";
+			this.colQRCode.Name = "colQRCode";
+			this.colQRCode.Visible = true;
+			this.colQRCode.VisibleIndex = 2;
+			this.colQRCode.Width = 117;
 			// 
-			// colCodeShort
+			// colOrder
 			// 
-			this.colCodeShort.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.colCodeShort.AppearanceCell.ForeColor = System.Drawing.Color.Black;
-			this.colCodeShort.AppearanceCell.Options.UseFont = true;
-			this.colCodeShort.AppearanceCell.Options.UseForeColor = true;
-			this.colCodeShort.AppearanceCell.Options.UseTextOptions = true;
-			this.colCodeShort.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.colCodeShort.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.colCodeShort.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-			this.colCodeShort.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.colCodeShort.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
-			this.colCodeShort.AppearanceHeader.Options.UseBackColor = true;
-			this.colCodeShort.AppearanceHeader.Options.UseFont = true;
-			this.colCodeShort.AppearanceHeader.Options.UseForeColor = true;
-			this.colCodeShort.AppearanceHeader.Options.UseTextOptions = true;
-			this.colCodeShort.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.colCodeShort.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.colCodeShort.Caption = "HLM";
-			this.colCodeShort.FieldName = "CodeShort";
-			this.colCodeShort.Name = "colCodeShort";
-			this.colCodeShort.OptionsColumn.AllowEdit = false;
-			this.colCodeShort.OptionsColumn.ReadOnly = true;
-			this.colCodeShort.Visible = true;
-			this.colCodeShort.VisibleIndex = 2;
-			this.colCodeShort.Width = 108;
+			this.colOrder.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+			this.colOrder.AppearanceCell.Options.UseFont = true;
+			this.colOrder.AppearanceCell.Options.UseTextOptions = true;
+			this.colOrder.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colOrder.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colOrder.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colOrder.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.colOrder.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colOrder.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
+			this.colOrder.AppearanceHeader.Options.UseBackColor = true;
+			this.colOrder.AppearanceHeader.Options.UseFont = true;
+			this.colOrder.AppearanceHeader.Options.UseForeColor = true;
+			this.colOrder.AppearanceHeader.Options.UseTextOptions = true;
+			this.colOrder.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colOrder.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colOrder.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colOrder.Caption = "Mã Order";
+			this.colOrder.ColumnEdit = this.repositoryItemMemoEdit2;
+			this.colOrder.FieldName = "OrderCode";
+			this.colOrder.Name = "colOrder";
+			this.colOrder.Visible = true;
+			this.colOrder.VisibleIndex = 3;
+			this.colOrder.Width = 101;
 			// 
 			// colRealValue
 			// 
-			this.colRealValue.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue.AppearanceCell.Options.UseFont = true;
 			this.colRealValue.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue.Caption = "HLM";
@@ -1636,28 +1791,30 @@ namespace BMS
 			this.colRealValue.FieldName = "RealValue";
 			this.colRealValue.Name = "colRealValue";
 			this.colRealValue.OptionsColumn.AllowEdit = false;
+			this.colRealValue.OptionsColumn.AllowFocus = false;
 			this.colRealValue.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue.OptionsColumn.ReadOnly = true;
 			this.colRealValue.OptionsFilter.AllowFilter = false;
 			this.colRealValue.Visible = true;
-			this.colRealValue.VisibleIndex = 3;
-			this.colRealValue.Width = 58;
+			this.colRealValue.VisibleIndex = 4;
+			this.colRealValue.Width = 65;
 			// 
 			// colRealValue1
 			// 
-			this.colRealValue1.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue1.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue1.AppearanceCell.Options.UseFont = true;
 			this.colRealValue1.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue1.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue1.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue1.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue1.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue1.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue1.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue1.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue1.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue1.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue1.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue1.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue1.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue1.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue1.Caption = "HLM";
@@ -1665,28 +1822,30 @@ namespace BMS
 			this.colRealValue1.FieldName = "RealValue1";
 			this.colRealValue1.Name = "colRealValue1";
 			this.colRealValue1.OptionsColumn.AllowEdit = false;
+			this.colRealValue1.OptionsColumn.AllowFocus = false;
 			this.colRealValue1.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue1.OptionsColumn.ReadOnly = true;
 			this.colRealValue1.OptionsFilter.AllowFilter = false;
 			this.colRealValue1.Visible = true;
-			this.colRealValue1.VisibleIndex = 4;
-			this.colRealValue1.Width = 58;
+			this.colRealValue1.VisibleIndex = 5;
+			this.colRealValue1.Width = 65;
 			// 
 			// colRealValue2
 			// 
-			this.colRealValue2.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue2.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue2.AppearanceCell.Options.UseFont = true;
 			this.colRealValue2.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue2.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue2.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue2.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue2.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue2.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue2.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue2.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue2.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue2.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue2.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue2.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue2.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue2.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue2.Caption = "HLM";
@@ -1694,28 +1853,30 @@ namespace BMS
 			this.colRealValue2.FieldName = "RealValue2";
 			this.colRealValue2.Name = "colRealValue2";
 			this.colRealValue2.OptionsColumn.AllowEdit = false;
+			this.colRealValue2.OptionsColumn.AllowFocus = false;
 			this.colRealValue2.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue2.OptionsColumn.ReadOnly = true;
 			this.colRealValue2.OptionsFilter.AllowFilter = false;
 			this.colRealValue2.Visible = true;
-			this.colRealValue2.VisibleIndex = 5;
-			this.colRealValue2.Width = 58;
+			this.colRealValue2.VisibleIndex = 6;
+			this.colRealValue2.Width = 65;
 			// 
 			// colRealValue3
 			// 
-			this.colRealValue3.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue3.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue3.AppearanceCell.Options.UseFont = true;
 			this.colRealValue3.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue3.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue3.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue3.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue3.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue3.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue3.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue3.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue3.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue3.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue3.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue3.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue3.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue3.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue3.Caption = "HLM";
@@ -1723,28 +1884,30 @@ namespace BMS
 			this.colRealValue3.FieldName = "RealValue3";
 			this.colRealValue3.Name = "colRealValue3";
 			this.colRealValue3.OptionsColumn.AllowEdit = false;
+			this.colRealValue3.OptionsColumn.AllowFocus = false;
 			this.colRealValue3.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue3.OptionsColumn.ReadOnly = true;
 			this.colRealValue3.OptionsFilter.AllowFilter = false;
 			this.colRealValue3.Visible = true;
-			this.colRealValue3.VisibleIndex = 6;
-			this.colRealValue3.Width = 58;
+			this.colRealValue3.VisibleIndex = 7;
+			this.colRealValue3.Width = 65;
 			// 
 			// colRealValue4
 			// 
-			this.colRealValue4.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue4.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue4.AppearanceCell.Options.UseFont = true;
 			this.colRealValue4.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue4.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue4.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue4.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue4.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue4.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue4.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue4.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue4.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue4.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue4.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue4.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue4.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue4.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue4.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue4.Caption = "HLM";
@@ -1752,28 +1915,30 @@ namespace BMS
 			this.colRealValue4.FieldName = "RealValue4";
 			this.colRealValue4.Name = "colRealValue4";
 			this.colRealValue4.OptionsColumn.AllowEdit = false;
+			this.colRealValue4.OptionsColumn.AllowFocus = false;
 			this.colRealValue4.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue4.OptionsColumn.ReadOnly = true;
 			this.colRealValue4.OptionsFilter.AllowFilter = false;
 			this.colRealValue4.Visible = true;
-			this.colRealValue4.VisibleIndex = 7;
-			this.colRealValue4.Width = 58;
+			this.colRealValue4.VisibleIndex = 8;
+			this.colRealValue4.Width = 65;
 			// 
 			// colRealValue5
 			// 
-			this.colRealValue5.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue5.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue5.AppearanceCell.Options.UseFont = true;
 			this.colRealValue5.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue5.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue5.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue5.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue5.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue5.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue5.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue5.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue5.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue5.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue5.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue5.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue5.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue5.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue5.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue5.Caption = "HLM";
@@ -1781,28 +1946,30 @@ namespace BMS
 			this.colRealValue5.FieldName = "RealValue5";
 			this.colRealValue5.Name = "colRealValue5";
 			this.colRealValue5.OptionsColumn.AllowEdit = false;
+			this.colRealValue5.OptionsColumn.AllowFocus = false;
 			this.colRealValue5.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue5.OptionsColumn.ReadOnly = true;
 			this.colRealValue5.OptionsFilter.AllowFilter = false;
 			this.colRealValue5.Visible = true;
-			this.colRealValue5.VisibleIndex = 8;
-			this.colRealValue5.Width = 58;
+			this.colRealValue5.VisibleIndex = 9;
+			this.colRealValue5.Width = 65;
 			// 
 			// colRealValue6
 			// 
-			this.colRealValue6.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue6.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue6.AppearanceCell.Options.UseFont = true;
 			this.colRealValue6.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue6.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue6.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue6.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue6.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue6.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue6.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue6.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue6.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue6.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue6.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue6.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue6.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue6.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue6.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue6.Caption = "HLM";
@@ -1810,327 +1977,351 @@ namespace BMS
 			this.colRealValue6.FieldName = "RealValue6";
 			this.colRealValue6.Name = "colRealValue6";
 			this.colRealValue6.OptionsColumn.AllowEdit = false;
+			this.colRealValue6.OptionsColumn.AllowFocus = false;
 			this.colRealValue6.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue6.OptionsColumn.ReadOnly = true;
 			this.colRealValue6.OptionsFilter.AllowFilter = false;
 			this.colRealValue6.Visible = true;
-			this.colRealValue6.VisibleIndex = 9;
-			this.colRealValue6.Width = 58;
+			this.colRealValue6.VisibleIndex = 10;
+			this.colRealValue6.Width = 65;
 			// 
 			// colRealValue7
 			// 
-			this.colRealValue7.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue7.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue7.AppearanceCell.Options.UseFont = true;
 			this.colRealValue7.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue7.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue7.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue7.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue7.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue7.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue7.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue7.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue7.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue7.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue7.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue7.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue7.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue7.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue7.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue7.Caption = "HLM";
 			this.colRealValue7.FieldName = "RealValue7";
 			this.colRealValue7.Name = "colRealValue7";
 			this.colRealValue7.OptionsColumn.AllowEdit = false;
+			this.colRealValue7.OptionsColumn.AllowFocus = false;
 			this.colRealValue7.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue7.OptionsColumn.ReadOnly = true;
 			this.colRealValue7.OptionsFilter.AllowFilter = false;
 			this.colRealValue7.Visible = true;
-			this.colRealValue7.VisibleIndex = 10;
-			this.colRealValue7.Width = 60;
+			this.colRealValue7.VisibleIndex = 11;
+			this.colRealValue7.Width = 65;
 			// 
 			// colRealValue8
 			// 
-			this.colRealValue8.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue8.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue8.AppearanceCell.Options.UseFont = true;
 			this.colRealValue8.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue8.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue8.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue8.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue8.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue8.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue8.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue8.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue8.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue8.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue8.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue8.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue8.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue8.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue8.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue8.Caption = "HLM";
 			this.colRealValue8.FieldName = "RealValue8";
 			this.colRealValue8.Name = "colRealValue8";
 			this.colRealValue8.OptionsColumn.AllowEdit = false;
+			this.colRealValue8.OptionsColumn.AllowFocus = false;
 			this.colRealValue8.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue8.OptionsColumn.ReadOnly = true;
 			this.colRealValue8.OptionsFilter.AllowFilter = false;
 			this.colRealValue8.Visible = true;
-			this.colRealValue8.VisibleIndex = 11;
-			this.colRealValue8.Width = 60;
+			this.colRealValue8.VisibleIndex = 12;
+			this.colRealValue8.Width = 65;
 			// 
 			// colRealValue9
 			// 
-			this.colRealValue9.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue9.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue9.AppearanceCell.Options.UseFont = true;
 			this.colRealValue9.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue9.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue9.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue9.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue9.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue9.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue9.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue9.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue9.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue9.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue9.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue9.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue9.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue9.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue9.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue9.Caption = "HLM";
 			this.colRealValue9.FieldName = "RealValue9";
 			this.colRealValue9.Name = "colRealValue9";
 			this.colRealValue9.OptionsColumn.AllowEdit = false;
+			this.colRealValue9.OptionsColumn.AllowFocus = false;
 			this.colRealValue9.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue9.OptionsColumn.ReadOnly = true;
 			this.colRealValue9.OptionsFilter.AllowFilter = false;
 			this.colRealValue9.Visible = true;
-			this.colRealValue9.VisibleIndex = 12;
-			this.colRealValue9.Width = 60;
+			this.colRealValue9.VisibleIndex = 13;
+			this.colRealValue9.Width = 65;
 			// 
 			// colRealValue10
 			// 
-			this.colRealValue10.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue10.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue10.AppearanceCell.Options.UseFont = true;
 			this.colRealValue10.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue10.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue10.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue10.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue10.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue10.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue10.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue10.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue10.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue10.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue10.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue10.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue10.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue10.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue10.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue10.Caption = "HLM";
 			this.colRealValue10.FieldName = "RealValue10";
 			this.colRealValue10.Name = "colRealValue10";
 			this.colRealValue10.OptionsColumn.AllowEdit = false;
+			this.colRealValue10.OptionsColumn.AllowFocus = false;
 			this.colRealValue10.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue10.OptionsColumn.ReadOnly = true;
 			this.colRealValue10.OptionsFilter.AllowFilter = false;
 			this.colRealValue10.Visible = true;
-			this.colRealValue10.VisibleIndex = 13;
-			this.colRealValue10.Width = 60;
+			this.colRealValue10.VisibleIndex = 14;
+			this.colRealValue10.Width = 65;
 			// 
 			// colRealValue11
 			// 
-			this.colRealValue11.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue11.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue11.AppearanceCell.Options.UseFont = true;
 			this.colRealValue11.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue11.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue11.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue11.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue11.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue11.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue11.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue11.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue11.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue11.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue11.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue11.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue11.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue11.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue11.Caption = "HLM";
 			this.colRealValue11.FieldName = "RealValue11";
 			this.colRealValue11.Name = "colRealValue11";
 			this.colRealValue11.OptionsColumn.AllowEdit = false;
+			this.colRealValue11.OptionsColumn.AllowFocus = false;
 			this.colRealValue11.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue11.OptionsColumn.ReadOnly = true;
 			this.colRealValue11.OptionsFilter.AllowFilter = false;
 			this.colRealValue11.Visible = true;
-			this.colRealValue11.VisibleIndex = 14;
-			this.colRealValue11.Width = 60;
+			this.colRealValue11.VisibleIndex = 15;
+			this.colRealValue11.Width = 65;
 			// 
 			// colRealValue12
 			// 
-			this.colRealValue12.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue12.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue12.AppearanceCell.Options.UseFont = true;
 			this.colRealValue12.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue12.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue12.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue12.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue12.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue12.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue12.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue12.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue12.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue12.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue12.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue12.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue12.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue12.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue12.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue12.Caption = "HLM";
 			this.colRealValue12.FieldName = "RealValue12";
 			this.colRealValue12.Name = "colRealValue12";
 			this.colRealValue12.OptionsColumn.AllowEdit = false;
+			this.colRealValue12.OptionsColumn.AllowFocus = false;
 			this.colRealValue12.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue12.OptionsColumn.ReadOnly = true;
 			this.colRealValue12.OptionsFilter.AllowFilter = false;
 			this.colRealValue12.Visible = true;
-			this.colRealValue12.VisibleIndex = 15;
-			this.colRealValue12.Width = 60;
+			this.colRealValue12.VisibleIndex = 16;
+			this.colRealValue12.Width = 65;
 			// 
 			// colRealValue13
 			// 
-			this.colRealValue13.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue13.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue13.AppearanceCell.Options.UseFont = true;
 			this.colRealValue13.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue13.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue13.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue13.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue13.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue13.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue13.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue13.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue13.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue13.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue13.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue13.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue13.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue13.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue13.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue13.Caption = "HLM";
 			this.colRealValue13.FieldName = "RealValue13";
 			this.colRealValue13.Name = "colRealValue13";
 			this.colRealValue13.OptionsColumn.AllowEdit = false;
+			this.colRealValue13.OptionsColumn.AllowFocus = false;
 			this.colRealValue13.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue13.OptionsColumn.ReadOnly = true;
 			this.colRealValue13.OptionsFilter.AllowFilter = false;
 			this.colRealValue13.Visible = true;
-			this.colRealValue13.VisibleIndex = 16;
-			this.colRealValue13.Width = 60;
+			this.colRealValue13.VisibleIndex = 17;
+			this.colRealValue13.Width = 65;
 			// 
 			// colRealValue14
 			// 
-			this.colRealValue14.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue14.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue14.AppearanceCell.Options.UseFont = true;
 			this.colRealValue14.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue14.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue14.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue14.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue14.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue14.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue14.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue14.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue14.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue14.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue14.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue14.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue14.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue14.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue14.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue14.Caption = "HLM";
 			this.colRealValue14.FieldName = "RealValue14";
 			this.colRealValue14.Name = "colRealValue14";
 			this.colRealValue14.OptionsColumn.AllowEdit = false;
+			this.colRealValue14.OptionsColumn.AllowFocus = false;
 			this.colRealValue14.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue14.OptionsColumn.ReadOnly = true;
 			this.colRealValue14.OptionsFilter.AllowFilter = false;
 			this.colRealValue14.Visible = true;
-			this.colRealValue14.VisibleIndex = 17;
-			this.colRealValue14.Width = 60;
+			this.colRealValue14.VisibleIndex = 18;
+			this.colRealValue14.Width = 65;
 			// 
 			// colRealValue15
 			// 
-			this.colRealValue15.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue15.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue15.AppearanceCell.Options.UseFont = true;
 			this.colRealValue15.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue15.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue15.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue15.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue15.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue15.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue15.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue15.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue15.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue15.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue15.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue15.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue15.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue15.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue15.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue15.Caption = "HLM";
 			this.colRealValue15.FieldName = "RealValue15";
 			this.colRealValue15.Name = "colRealValue15";
 			this.colRealValue15.OptionsColumn.AllowEdit = false;
+			this.colRealValue15.OptionsColumn.AllowFocus = false;
 			this.colRealValue15.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue15.OptionsColumn.ReadOnly = true;
 			this.colRealValue15.OptionsFilter.AllowFilter = false;
 			this.colRealValue15.Visible = true;
-			this.colRealValue15.VisibleIndex = 18;
-			this.colRealValue15.Width = 60;
+			this.colRealValue15.VisibleIndex = 19;
+			this.colRealValue15.Width = 65;
 			// 
 			// colRealValue16
 			// 
-			this.colRealValue16.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue16.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue16.AppearanceCell.Options.UseFont = true;
 			this.colRealValue16.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue16.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue16.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue16.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue16.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue16.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue16.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue16.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue16.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue16.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue16.AppearanceHeader.Options.UseForeColor = true;
 			this.colRealValue16.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue16.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue16.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue16.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue16.Caption = "HLM";
 			this.colRealValue16.FieldName = "RealValue16";
 			this.colRealValue16.Name = "colRealValue16";
 			this.colRealValue16.OptionsColumn.AllowEdit = false;
+			this.colRealValue16.OptionsColumn.AllowFocus = false;
 			this.colRealValue16.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue16.OptionsColumn.ReadOnly = true;
 			this.colRealValue16.OptionsFilter.AllowFilter = false;
 			this.colRealValue16.Visible = true;
-			this.colRealValue16.VisibleIndex = 19;
-			this.colRealValue16.Width = 60;
+			this.colRealValue16.VisibleIndex = 20;
+			this.colRealValue16.Width = 65;
 			// 
 			// colRealValue17
 			// 
-			this.colRealValue17.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue17.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue17.AppearanceCell.Options.UseFont = true;
 			this.colRealValue17.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue17.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue17.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue17.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue17.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue17.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue17.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue17.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue17.AppearanceHeader.Options.UseFont = true;
 			this.colRealValue17.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue17.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue17.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue17.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue17.Caption = "HLM";
 			this.colRealValue17.FieldName = "RealValue17";
 			this.colRealValue17.Name = "colRealValue17";
 			this.colRealValue17.OptionsColumn.AllowEdit = false;
+			this.colRealValue17.OptionsColumn.AllowFocus = false;
+			this.colRealValue17.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue17.OptionsColumn.ReadOnly = true;
 			this.colRealValue17.Visible = true;
-			this.colRealValue17.VisibleIndex = 20;
-			this.colRealValue17.Width = 60;
+			this.colRealValue17.VisibleIndex = 21;
+			this.colRealValue17.Width = 65;
 			// 
 			// colRealValue18
 			// 
-			this.colRealValue18.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue18.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.colRealValue18.AppearanceCell.Options.UseFont = true;
 			this.colRealValue18.AppearanceCell.Options.UseTextOptions = true;
 			this.colRealValue18.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
 			this.colRealValue18.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
 			this.colRealValue18.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
 			this.colRealValue18.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
-			this.colRealValue18.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.colRealValue18.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
 			this.colRealValue18.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
 			this.colRealValue18.AppearanceHeader.Options.UseBackColor = true;
 			this.colRealValue18.AppearanceHeader.Options.UseFont = true;
@@ -2143,10 +2334,728 @@ namespace BMS
 			this.colRealValue18.FieldName = "RealValue18";
 			this.colRealValue18.Name = "colRealValue18";
 			this.colRealValue18.OptionsColumn.AllowEdit = false;
+			this.colRealValue18.OptionsColumn.AllowFocus = false;
+			this.colRealValue18.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
 			this.colRealValue18.OptionsColumn.ReadOnly = true;
 			this.colRealValue18.Visible = true;
-			this.colRealValue18.VisibleIndex = 21;
-			this.colRealValue18.Width = 60;
+			this.colRealValue18.VisibleIndex = 22;
+			this.colRealValue18.Width = 65;
+			// 
+			// colRealValue19
+			// 
+			this.colRealValue19.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue19.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue19.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue19.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue19.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue19.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue19.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue19.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue19.Caption = "HLM";
+			this.colRealValue19.FieldName = "RealValue19";
+			this.colRealValue19.Name = "colRealValue19";
+			this.colRealValue19.OptionsColumn.AllowEdit = false;
+			this.colRealValue19.OptionsColumn.AllowFocus = false;
+			this.colRealValue19.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue19.Visible = true;
+			this.colRealValue19.VisibleIndex = 23;
+			this.colRealValue19.Width = 65;
+			// 
+			// colRealValue20
+			// 
+			this.colRealValue20.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue20.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue20.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue20.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue20.Caption = "HLM";
+			this.colRealValue20.FieldName = "RealValue20";
+			this.colRealValue20.Name = "colRealValue20";
+			this.colRealValue20.OptionsColumn.AllowEdit = false;
+			this.colRealValue20.OptionsColumn.AllowFocus = false;
+			this.colRealValue20.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue20.Visible = true;
+			this.colRealValue20.VisibleIndex = 24;
+			this.colRealValue20.Width = 65;
+			// 
+			// colRealValue21
+			// 
+			this.colRealValue21.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue21.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue21.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue21.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue21.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue21.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue21.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue21.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue21.Caption = "HLM";
+			this.colRealValue21.FieldName = "RealValue21";
+			this.colRealValue21.Name = "colRealValue21";
+			this.colRealValue21.OptionsColumn.AllowEdit = false;
+			this.colRealValue21.OptionsColumn.AllowFocus = false;
+			this.colRealValue21.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue21.Visible = true;
+			this.colRealValue21.VisibleIndex = 25;
+			this.colRealValue21.Width = 65;
+			// 
+			// colRealValue22
+			// 
+			this.colRealValue22.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue22.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue22.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue22.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue22.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue22.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue22.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue22.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue22.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue22.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue22.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue22.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue22.Caption = "HLM";
+			this.colRealValue22.FieldName = "RealValue22";
+			this.colRealValue22.Name = "colRealValue22";
+			this.colRealValue22.OptionsColumn.AllowEdit = false;
+			this.colRealValue22.OptionsColumn.AllowFocus = false;
+			this.colRealValue22.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue22.Visible = true;
+			this.colRealValue22.VisibleIndex = 26;
+			this.colRealValue22.Width = 65;
+			// 
+			// colRealValue23
+			// 
+			this.colRealValue23.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue23.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue23.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue23.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue23.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue23.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue23.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue23.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue23.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue23.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue23.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue23.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue23.Caption = "HLM";
+			this.colRealValue23.FieldName = "RealValue23";
+			this.colRealValue23.Name = "colRealValue23";
+			this.colRealValue23.OptionsColumn.AllowEdit = false;
+			this.colRealValue23.OptionsColumn.AllowFocus = false;
+			this.colRealValue23.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue23.Visible = true;
+			this.colRealValue23.VisibleIndex = 27;
+			this.colRealValue23.Width = 65;
+			// 
+			// colRealValue24
+			// 
+			this.colRealValue24.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue24.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue24.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue24.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue24.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue24.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue24.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue24.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue24.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue24.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue24.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue24.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue24.Caption = "HLM";
+			this.colRealValue24.FieldName = "RealValue24";
+			this.colRealValue24.Name = "colRealValue24";
+			this.colRealValue24.OptionsColumn.AllowEdit = false;
+			this.colRealValue24.OptionsColumn.AllowFocus = false;
+			this.colRealValue24.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue24.Visible = true;
+			this.colRealValue24.VisibleIndex = 28;
+			this.colRealValue24.Width = 65;
+			// 
+			// colRealValue25
+			// 
+			this.colRealValue25.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue25.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue25.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue25.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue25.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue25.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue25.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue25.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue25.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue25.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue25.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue25.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue25.Caption = "HLM";
+			this.colRealValue25.FieldName = "RealValue25";
+			this.colRealValue25.Name = "colRealValue25";
+			this.colRealValue25.OptionsColumn.AllowEdit = false;
+			this.colRealValue25.OptionsColumn.AllowFocus = false;
+			this.colRealValue25.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue25.Visible = true;
+			this.colRealValue25.VisibleIndex = 29;
+			this.colRealValue25.Width = 65;
+			// 
+			// colRealValue26
+			// 
+			this.colRealValue26.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue26.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue26.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue26.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue26.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue26.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue26.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue26.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue26.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue26.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue26.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue26.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue26.Caption = "HLM";
+			this.colRealValue26.FieldName = "RealValue26";
+			this.colRealValue26.Name = "colRealValue26";
+			this.colRealValue26.OptionsColumn.AllowEdit = false;
+			this.colRealValue26.OptionsColumn.AllowFocus = false;
+			this.colRealValue26.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue26.Visible = true;
+			this.colRealValue26.VisibleIndex = 30;
+			this.colRealValue26.Width = 65;
+			// 
+			// colRealValue27
+			// 
+			this.colRealValue27.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue27.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue27.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue27.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue27.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue27.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue27.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue27.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue27.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue27.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue27.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue27.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue27.Caption = "HLM";
+			this.colRealValue27.FieldName = "RealValue27";
+			this.colRealValue27.Name = "colRealValue27";
+			this.colRealValue27.OptionsColumn.AllowEdit = false;
+			this.colRealValue27.OptionsColumn.AllowFocus = false;
+			this.colRealValue27.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue27.Visible = true;
+			this.colRealValue27.VisibleIndex = 31;
+			this.colRealValue27.Width = 65;
+			// 
+			// colRealValue28
+			// 
+			this.colRealValue28.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue28.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue28.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue28.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue28.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue28.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue28.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue28.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue28.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue28.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue28.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue28.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue28.Caption = "HLM";
+			this.colRealValue28.FieldName = "RealValue28";
+			this.colRealValue28.Name = "colRealValue28";
+			this.colRealValue28.OptionsColumn.AllowEdit = false;
+			this.colRealValue28.OptionsColumn.AllowFocus = false;
+			this.colRealValue28.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue28.Visible = true;
+			this.colRealValue28.VisibleIndex = 32;
+			this.colRealValue28.Width = 65;
+			// 
+			// colRealValue29
+			// 
+			this.colRealValue29.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue29.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue29.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue29.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue29.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue29.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue29.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue29.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue29.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue29.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue29.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue29.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue29.Caption = "HLM";
+			this.colRealValue29.FieldName = "RealValue29";
+			this.colRealValue29.Name = "colRealValue29";
+			this.colRealValue29.OptionsColumn.AllowEdit = false;
+			this.colRealValue29.OptionsColumn.AllowFocus = false;
+			this.colRealValue29.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue29.Visible = true;
+			this.colRealValue29.VisibleIndex = 33;
+			this.colRealValue29.Width = 65;
+			// 
+			// colRealValue30
+			// 
+			this.colRealValue30.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue30.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue30.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue30.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue30.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue30.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue30.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue30.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue30.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue30.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue30.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue30.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue30.Caption = "HLM";
+			this.colRealValue30.FieldName = "RealValue30";
+			this.colRealValue30.Name = "colRealValue30";
+			this.colRealValue30.OptionsColumn.AllowEdit = false;
+			this.colRealValue30.OptionsColumn.AllowFocus = false;
+			this.colRealValue30.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue30.Visible = true;
+			this.colRealValue30.VisibleIndex = 34;
+			this.colRealValue30.Width = 65;
+			// 
+			// colRealValue31
+			// 
+			this.colRealValue31.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue31.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue31.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue31.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue31.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue31.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue31.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue31.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue31.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue31.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue31.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue31.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue31.Caption = "HLM";
+			this.colRealValue31.FieldName = "RealValue31";
+			this.colRealValue31.Name = "colRealValue31";
+			this.colRealValue31.OptionsColumn.AllowEdit = false;
+			this.colRealValue31.OptionsColumn.AllowFocus = false;
+			this.colRealValue31.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue31.Visible = true;
+			this.colRealValue31.VisibleIndex = 35;
+			this.colRealValue31.Width = 65;
+			// 
+			// colRealValue32
+			// 
+			this.colRealValue32.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue32.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue32.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue32.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue32.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue32.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue32.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue32.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue32.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue32.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue32.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue32.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue32.Caption = "HLM";
+			this.colRealValue32.FieldName = "RealValue32";
+			this.colRealValue32.Name = "colRealValue32";
+			this.colRealValue32.OptionsColumn.AllowEdit = false;
+			this.colRealValue32.OptionsColumn.AllowFocus = false;
+			this.colRealValue32.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue32.Visible = true;
+			this.colRealValue32.VisibleIndex = 36;
+			this.colRealValue32.Width = 65;
+			// 
+			// colRealValue33
+			// 
+			this.colRealValue33.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue33.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue33.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue33.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue33.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue33.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue33.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue33.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue33.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue33.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue33.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue33.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue33.Caption = "HLM";
+			this.colRealValue33.FieldName = "RealValue33";
+			this.colRealValue33.Name = "colRealValue33";
+			this.colRealValue33.OptionsColumn.AllowEdit = false;
+			this.colRealValue33.OptionsColumn.AllowFocus = false;
+			this.colRealValue33.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue33.Visible = true;
+			this.colRealValue33.VisibleIndex = 37;
+			this.colRealValue33.Width = 65;
+			// 
+			// colRealValue34
+			// 
+			this.colRealValue34.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue34.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue34.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue34.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue34.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue34.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue34.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue34.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue34.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue34.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue34.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue34.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue34.Caption = "HLM";
+			this.colRealValue34.FieldName = "RealValue34";
+			this.colRealValue34.Name = "colRealValue34";
+			this.colRealValue34.OptionsColumn.AllowEdit = false;
+			this.colRealValue34.OptionsColumn.AllowFocus = false;
+			this.colRealValue34.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue34.Visible = true;
+			this.colRealValue34.VisibleIndex = 38;
+			this.colRealValue34.Width = 65;
+			// 
+			// colRealValue35
+			// 
+			this.colRealValue35.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue35.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue35.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue35.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue35.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue35.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue35.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue35.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue35.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue35.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue35.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue35.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue35.Caption = "HLM";
+			this.colRealValue35.FieldName = "RealValue35";
+			this.colRealValue35.Name = "colRealValue35";
+			this.colRealValue35.OptionsColumn.AllowEdit = false;
+			this.colRealValue35.OptionsColumn.AllowFocus = false;
+			this.colRealValue35.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue35.Visible = true;
+			this.colRealValue35.VisibleIndex = 39;
+			this.colRealValue35.Width = 65;
+			// 
+			// colRealValue36
+			// 
+			this.colRealValue36.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue36.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue36.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue36.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue36.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue36.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue36.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue36.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue36.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue36.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue36.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue36.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue36.Caption = "HLM";
+			this.colRealValue36.FieldName = "RealValue36";
+			this.colRealValue36.Name = "colRealValue36";
+			this.colRealValue36.OptionsColumn.AllowEdit = false;
+			this.colRealValue36.OptionsColumn.AllowFocus = false;
+			this.colRealValue36.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue36.Visible = true;
+			this.colRealValue36.VisibleIndex = 40;
+			this.colRealValue36.Width = 65;
+			// 
+			// colRealValue37
+			// 
+			this.colRealValue37.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue37.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue37.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue37.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue37.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue37.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue37.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue37.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue37.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue37.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue37.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue37.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue37.Caption = "HLM";
+			this.colRealValue37.FieldName = "RealValue37";
+			this.colRealValue37.Name = "colRealValue37";
+			this.colRealValue37.OptionsColumn.AllowEdit = false;
+			this.colRealValue37.OptionsColumn.AllowFocus = false;
+			this.colRealValue37.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue37.Visible = true;
+			this.colRealValue37.VisibleIndex = 41;
+			this.colRealValue37.Width = 65;
+			// 
+			// colRealValue38
+			// 
+			this.colRealValue38.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue38.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue38.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue38.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue38.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue38.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue38.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue38.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue38.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue38.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue38.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue38.Caption = "HLM";
+			this.colRealValue38.FieldName = "RealValue38";
+			this.colRealValue38.Name = "colRealValue38";
+			this.colRealValue38.OptionsColumn.AllowEdit = false;
+			this.colRealValue38.OptionsColumn.AllowFocus = false;
+			this.colRealValue38.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue38.Visible = true;
+			this.colRealValue38.VisibleIndex = 42;
+			this.colRealValue38.Width = 65;
+			// 
+			// colRealValue39
+			// 
+			this.colRealValue39.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue39.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue39.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue39.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue39.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue39.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue39.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue39.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue39.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue39.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue39.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue39.Caption = "HLM";
+			this.colRealValue39.FieldName = "RealValue39";
+			this.colRealValue39.Name = "colRealValue39";
+			this.colRealValue39.OptionsColumn.AllowEdit = false;
+			this.colRealValue39.OptionsColumn.AllowFocus = false;
+			this.colRealValue39.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue39.Visible = true;
+			this.colRealValue39.VisibleIndex = 43;
+			this.colRealValue39.Width = 65;
+			// 
+			// colRealValue40
+			// 
+			this.colRealValue40.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue40.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue40.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue40.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue40.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue40.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue40.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue40.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue40.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue40.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue40.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue40.Caption = "HLM";
+			this.colRealValue40.FieldName = "RealValue40";
+			this.colRealValue40.Name = "colRealValue40";
+			this.colRealValue40.OptionsColumn.AllowEdit = false;
+			this.colRealValue40.OptionsColumn.AllowFocus = false;
+			this.colRealValue40.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue40.Visible = true;
+			this.colRealValue40.VisibleIndex = 44;
+			this.colRealValue40.Width = 65;
+			// 
+			// colRealValue41
+			// 
+			this.colRealValue41.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue41.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue41.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue41.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue41.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue41.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue41.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue41.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue41.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue41.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue41.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue41.Caption = "HLM";
+			this.colRealValue41.FieldName = "RealValue41";
+			this.colRealValue41.Name = "colRealValue41";
+			this.colRealValue41.OptionsColumn.AllowEdit = false;
+			this.colRealValue41.OptionsColumn.AllowFocus = false;
+			this.colRealValue41.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue41.Visible = true;
+			this.colRealValue41.VisibleIndex = 45;
+			this.colRealValue41.Width = 65;
+			// 
+			// colRealValue42
+			// 
+			this.colRealValue42.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue42.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue42.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue42.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue42.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue42.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue42.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue42.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue42.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue42.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue42.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue42.Caption = "HLM";
+			this.colRealValue42.FieldName = "RealValue42";
+			this.colRealValue42.Name = "colRealValue42";
+			this.colRealValue42.OptionsColumn.AllowEdit = false;
+			this.colRealValue42.OptionsColumn.AllowFocus = false;
+			this.colRealValue42.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue42.Visible = true;
+			this.colRealValue42.VisibleIndex = 46;
+			this.colRealValue42.Width = 65;
+			// 
+			// colRealValue43
+			// 
+			this.colRealValue43.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue43.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue43.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue43.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue43.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue43.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue43.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue43.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue43.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue43.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue43.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue43.Caption = "HLM";
+			this.colRealValue43.FieldName = "RealValue43";
+			this.colRealValue43.Name = "colRealValue43";
+			this.colRealValue43.OptionsColumn.AllowEdit = false;
+			this.colRealValue43.OptionsColumn.AllowFocus = false;
+			this.colRealValue43.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue43.Visible = true;
+			this.colRealValue43.VisibleIndex = 47;
+			this.colRealValue43.Width = 65;
+			// 
+			// colRealValue44
+			// 
+			this.colRealValue44.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue44.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue44.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue44.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue44.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue44.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue44.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue44.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue44.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue44.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue44.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue44.Caption = "HLM";
+			this.colRealValue44.FieldName = "RealValue44";
+			this.colRealValue44.Name = "colRealValue44";
+			this.colRealValue44.OptionsColumn.AllowEdit = false;
+			this.colRealValue44.OptionsColumn.AllowFocus = false;
+			this.colRealValue44.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue44.Visible = true;
+			this.colRealValue44.VisibleIndex = 48;
+			this.colRealValue44.Width = 65;
+			// 
+			// colRealValue45
+			// 
+			this.colRealValue45.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue45.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue45.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue45.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue45.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue45.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue45.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue45.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue45.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue45.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue45.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue45.Caption = "HLM";
+			this.colRealValue45.FieldName = "RealValue45";
+			this.colRealValue45.Name = "colRealValue45";
+			this.colRealValue45.OptionsColumn.AllowEdit = false;
+			this.colRealValue45.OptionsColumn.AllowFocus = false;
+			this.colRealValue45.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue45.Visible = true;
+			this.colRealValue45.VisibleIndex = 49;
+			this.colRealValue45.Width = 65;
+			// 
+			// colRealValue46
+			// 
+			this.colRealValue46.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue46.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue46.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue46.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue46.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue46.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue46.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue46.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue46.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue46.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue46.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue46.Caption = "HLM";
+			this.colRealValue46.FieldName = "RealValue46";
+			this.colRealValue46.Name = "colRealValue46";
+			this.colRealValue46.OptionsColumn.AllowEdit = false;
+			this.colRealValue46.OptionsColumn.AllowFocus = false;
+			this.colRealValue46.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue46.Visible = true;
+			this.colRealValue46.VisibleIndex = 50;
+			this.colRealValue46.Width = 65;
+			// 
+			// colRealValue47
+			// 
+			this.colRealValue47.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue47.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue47.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue47.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue47.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue47.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue47.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue47.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue47.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue47.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue47.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue47.Caption = "HLM";
+			this.colRealValue47.FieldName = "RealValue47";
+			this.colRealValue47.Name = "colRealValue47";
+			this.colRealValue47.OptionsColumn.AllowEdit = false;
+			this.colRealValue47.OptionsColumn.AllowFocus = false;
+			this.colRealValue47.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue47.Visible = true;
+			this.colRealValue47.VisibleIndex = 51;
+			this.colRealValue47.Width = 65;
+			// 
+			// colRealValue48
+			// 
+			this.colRealValue48.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue48.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue48.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue48.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue48.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue48.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue48.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue48.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue48.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue48.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue48.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue48.Caption = "HLM";
+			this.colRealValue48.FieldName = "RealValue48";
+			this.colRealValue48.Name = "colRealValue48";
+			this.colRealValue48.OptionsColumn.AllowEdit = false;
+			this.colRealValue48.OptionsColumn.AllowFocus = false;
+			this.colRealValue48.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue48.Visible = true;
+			this.colRealValue48.VisibleIndex = 52;
+			this.colRealValue48.Width = 65;
+			// 
+			// colRealValue49
+			// 
+			this.colRealValue49.AppearanceCell.Options.UseTextOptions = true;
+			this.colRealValue49.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue49.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue49.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colRealValue49.AppearanceHeader.BackColor = System.Drawing.Color.YellowGreen;
+			this.colRealValue49.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.colRealValue49.AppearanceHeader.Options.UseBackColor = true;
+			this.colRealValue49.AppearanceHeader.Options.UseFont = true;
+			this.colRealValue49.AppearanceHeader.Options.UseTextOptions = true;
+			this.colRealValue49.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colRealValue49.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colRealValue49.Caption = "HLM";
+			this.colRealValue49.FieldName = "RealValue49";
+			this.colRealValue49.Name = "colRealValue49";
+			this.colRealValue49.OptionsColumn.AllowEdit = false;
+			this.colRealValue49.OptionsColumn.AllowFocus = false;
+			this.colRealValue49.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
+			this.colRealValue49.Visible = true;
+			this.colRealValue49.VisibleIndex = 53;
+			this.colRealValue49.Width = 65;
 			// 
 			// btnExportExcelLinhKien
 			// 
@@ -2161,68 +3070,6 @@ namespace BMS
 			this.btnExportExcelLinhKien.Text = "Xuất Excel";
 			this.btnExportExcelLinhKien.Click += new System.EventHandler(this.btnExportExcelLinhKien_Click);
 			// 
-			// cbAccessory
-			// 
-			this.cbAccessory.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.cbAccessory.Enabled = false;
-			this.cbAccessory.Location = new System.Drawing.Point(391, 123);
-			this.cbAccessory.Name = "cbAccessory";
-			this.cbAccessory.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.cbAccessory.Properties.Appearance.Options.UseFont = true;
-			this.cbAccessory.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-			this.cbAccessory.Properties.NullText = "";
-			this.cbAccessory.Properties.PopupView = this.searchLookUpEdit1View;
-			this.cbAccessory.Size = new System.Drawing.Size(444, 36);
-			this.cbAccessory.TabIndex = 13;
-			this.cbAccessory.EditValueChanged += new System.EventHandler(this.cbAccessory_EditValueChanged);
-			// 
-			// searchLookUpEdit1View
-			// 
-			this.searchLookUpEdit1View.ColumnPanelRowHeight = 50;
-			this.searchLookUpEdit1View.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn2});
-			this.searchLookUpEdit1View.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
-			this.searchLookUpEdit1View.Name = "searchLookUpEdit1View";
-			this.searchLookUpEdit1View.OptionsSelection.EnableAppearanceFocusedCell = false;
-			this.searchLookUpEdit1View.OptionsView.ShowGroupPanel = false;
-			this.searchLookUpEdit1View.RowHeight = 30;
-			// 
-			// gridColumn2
-			// 
-			this.gridColumn2.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.gridColumn2.AppearanceCell.Options.UseFont = true;
-			this.gridColumn2.AppearanceCell.Options.UseTextOptions = true;
-			this.gridColumn2.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.gridColumn2.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.gridColumn2.AppearanceHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.gridColumn2.AppearanceHeader.ForeColor = System.Drawing.Color.Black;
-			this.gridColumn2.AppearanceHeader.Options.UseFont = true;
-			this.gridColumn2.AppearanceHeader.Options.UseForeColor = true;
-			this.gridColumn2.AppearanceHeader.Options.UseTextOptions = true;
-			this.gridColumn2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-			this.gridColumn2.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-			this.gridColumn2.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-			this.gridColumn2.Caption = "DANH SÁCH LINH KIỆN";
-			this.gridColumn2.FieldName = "SumColumn";
-			this.gridColumn2.Name = "gridColumn2";
-			this.gridColumn2.Visible = true;
-			this.gridColumn2.VisibleIndex = 0;
-			// 
-			// cbStepCode
-			// 
-			this.cbStepCode.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.cbStepCode.Enabled = false;
-			this.cbStepCode.Location = new System.Drawing.Point(841, 123);
-			this.cbStepCode.Name = "cbStepCode";
-			this.cbStepCode.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.cbStepCode.Properties.Appearance.Options.UseFont = true;
-			this.cbStepCode.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-			this.cbStepCode.Size = new System.Drawing.Size(318, 36);
-			this.cbStepCode.TabIndex = 19;
-			this.cbStepCode.EditValueChanged += new System.EventHandler(this.cbStepCode_EditValueChanged);
-			// 
 			// btnReset
 			// 
 			this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -2235,6 +3082,18 @@ namespace BMS
 			this.btnReset.TabIndex = 32;
 			this.btnReset.Text = "RESET";
 			this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+			// 
+			// cbAccessory
+			// 
+			this.cbAccessory.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.cbAccessory.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
+			this.cbAccessory.FormattingEnabled = true;
+			this.cbAccessory.Location = new System.Drawing.Point(389, 121);
+			this.cbAccessory.Margin = new System.Windows.Forms.Padding(1);
+			this.cbAccessory.Name = "cbAccessory";
+			this.cbAccessory.Size = new System.Drawing.Size(448, 37);
+			this.cbAccessory.TabIndex = 33;
+			this.cbAccessory.SelectedIndexChanged += new System.EventHandler(this.cbAccessory_SelectedIndexChanged);
 			// 
 			// frmExportAssemble
 			// 
@@ -2273,9 +3132,6 @@ namespace BMS
 			((System.ComponentModel.ISupportInitialize)(this.grvLinhKienLapRap)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.repositoryItemMemoEdit2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.btnDelete)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.cbAccessory.Properties)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.searchLookUpEdit1View)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.cbStepCode.Properties)).EndInit();
 			this.ResumeLayout(false);
 
         }
@@ -2323,8 +3179,6 @@ namespace BMS
         private System.Windows.Forms.TextBox txtAccessory;
         private System.Windows.Forms.Label label8;
         private DevExpress.XtraGrid.Columns.GridColumn colOrderCode;
-        private DevExpress.XtraEditors.SearchLookUpEdit cbAccessory;
-        private DevExpress.XtraGrid.Views.Grid.GridView searchLookUpEdit1View;
         private DevExpress.XtraGrid.GridControl grdLinhKienLapRap;
         private DevExpress.XtraGrid.Views.Grid.GridView grvLinhKienLapRap;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
@@ -2352,8 +3206,6 @@ namespace BMS
         private DevExpress.XtraGrid.Columns.GridColumn colRealValue15;
         private DevExpress.XtraGrid.Columns.GridColumn colRealValue16;
         private DevExpress.XtraGrid.Columns.GridColumn colRealValue17;
-        private DevExpress.XtraEditors.CheckedComboBoxEdit cbStepCode;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraEditors.SimpleButton btnExportExcelLapRap;
         private DevExpress.XtraGrid.Views.Grid.GridView grvDetail;
@@ -2384,5 +3236,41 @@ namespace BMS
         private DevExpress.XtraEditors.SimpleButton btnExportExcelLinhKien;
         private DevExpress.XtraEditors.SimpleButton btnReset;
 		private DevExpress.XtraGrid.Columns.GridColumn colValue;
+		private System.Windows.Forms.ComboBox cbAccessory;
+		private System.Windows.Forms.ComboBox cbStepCode;
+		private DevExpress.XtraGrid.Columns.GridColumn colPartCode;
+		private DevExpress.XtraGrid.Columns.GridColumn colQRCode;
+		private DevExpress.XtraGrid.Columns.GridColumn colOrder;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue19;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue20;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue21;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue22;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue23;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue24;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue25;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue26;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue27;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue28;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue29;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue30;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue31;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue32;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue33;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue34;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue35;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue36;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue37;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue38;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue39;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue40;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue41;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue42;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue43;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue44;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue45;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue46;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue47;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue48;
+		private DevExpress.XtraGrid.Columns.GridColumn colRealValue49;
 	}
 }

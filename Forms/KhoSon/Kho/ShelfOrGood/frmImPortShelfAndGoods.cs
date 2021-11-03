@@ -218,6 +218,7 @@ namespace BMS
 					#region SetValue
 					orderPart.ArticleID = _ArticleID;
 					orderPart.Shelf = Shelf;
+					orderPart.PaintingColor = Lib.ToString(grvData.GetRowCellValue(i, "F4"));
 					orderPart.IsGeneral = Lib.ToBoolean(grvData.GetRowCellValue(i, "F3"));
 					#endregion
 					if (arr.Count > 0)

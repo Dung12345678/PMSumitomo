@@ -30,6 +30,7 @@ namespace BMS
 	{
 		private string _pathFileConfigUpdate = Path.Combine(Application.StartupPath, "Download.txt");
 		private string _pathFileConfigUpdateImage = Path.Combine(Application.StartupPath, "DownloadImage.txt");
+		private string _pathFileConfigCSV = Path.Combine(Application.StartupPath, "DownloadCSV.txt");
 		private string _pathFolderLocal;
 		private string _pathUpdateServer;
 		private string _pathFileVersion;
@@ -402,7 +403,7 @@ namespace BMS
 		/// </summary>
 		/// <param name="Number">số lần chạy</param>
 		/// <param name="Rotation">Chiều quay F hoặc R</param>
-		void RunSound(string Number,string Rotation)
+		void RunSound(string Number, string Rotation)
 		{
 			if (!File.Exists(_pathFileConfigUpdate)) return;
 			try
@@ -443,11 +444,11 @@ namespace BMS
 				string[] arrr = _QRCode.Split(' ');
 				string qrCode = arrr[0];
 				string fileName = "";
-				if(Rotation=="F")
+				if (Rotation == "F")
 				{
 					fileName = $"{_OrderCode}_{qrCode}_fwd" + Number + ".wav";
 				}
-				else if(Rotation == "R")
+				else if (Rotation == "R")
 				{
 					fileName = $"{_OrderCode}_{qrCode}_rwd" + Number + ".wav";
 				}
@@ -466,7 +467,7 @@ namespace BMS
 
 		private void nGHEÂMTHANHCHIỀUFToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			RunSound("","F");
+			RunSound("", "F");
 		}
 
 		private void nGHEÂMTHANHCHIỀURToolStripMenuItem_Click(object sender, EventArgs e)
@@ -502,6 +503,14 @@ namespace BMS
 		private void nGHEÂMTHANHCHIỀURToolStripMenuItem3_Click(object sender, EventArgs e)
 		{
 			RunSound("3", "R");
+		}
+
+		private void hIỂNTHỊFILECSVToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			string QRCode = TextUtils.ToString(grvData.GetFocusedRowCellValue(colQRCode));
+			string[] QRCodeSplit = QRCode.Split(' ');
+			if (QRCodeSplit.Count() > 1 || QRCodeSplit.Length > 1)
+				Lib.DownLoadFile(_pathFileConfigCSV, QRCodeSplit[0].Trim(), "csv");
 		}
 	}
 }

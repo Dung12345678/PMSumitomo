@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSkipDetailsH));
 			this.mnuMenu = new System.Windows.Forms.ToolStrip();
 			this.btnSave = new System.Windows.Forms.ToolStripButton();
@@ -37,11 +38,12 @@
 			this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
 			this.txtProduct = new System.Windows.Forms.TextBox();
 			this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip();
+			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.saveNewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.rtxtCDSkip = new System.Windows.Forms.RichTextBox();
+			this.chkIsVoltage = new System.Windows.Forms.CheckBox();
 			this.mnuMenu.SuspendLayout();
 			this.contextMenuStrip1.SuspendLayout();
 			this.SuspendLayout();
@@ -110,7 +112,8 @@
 			// labelControl6
 			// 
 			this.labelControl6.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.labelControl6.Location = new System.Drawing.Point(12, 145);
+			this.labelControl6.Appearance.Options.UseFont = true;
+			this.labelControl6.Location = new System.Drawing.Point(12, 131);
 			this.labelControl6.Name = "labelControl6";
 			this.labelControl6.Size = new System.Drawing.Size(246, 31);
 			this.labelControl6.TabIndex = 29;
@@ -127,6 +130,7 @@
 			// labelControl9
 			// 
 			this.labelControl9.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.labelControl9.Appearance.Options.UseFont = true;
 			this.labelControl9.Location = new System.Drawing.Point(12, 74);
 			this.labelControl9.Name = "labelControl9";
 			this.labelControl9.Size = new System.Drawing.Size(182, 31);
@@ -172,25 +176,37 @@
 			// rtxtCDSkip
 			// 
 			this.rtxtCDSkip.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-			this.rtxtCDSkip.Location = new System.Drawing.Point(264, 145);
+			this.rtxtCDSkip.Location = new System.Drawing.Point(264, 128);
 			this.rtxtCDSkip.Name = "rtxtCDSkip";
 			this.rtxtCDSkip.Size = new System.Drawing.Size(406, 96);
 			this.rtxtCDSkip.TabIndex = 38;
 			this.rtxtCDSkip.Text = "";
 			// 
-			// frmSkipDetails
+			// chkIsVoltage
+			// 
+			this.chkIsVoltage.AutoSize = true;
+			this.chkIsVoltage.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+			this.chkIsVoltage.Location = new System.Drawing.Point(264, 239);
+			this.chkIsVoltage.Name = "chkIsVoltage";
+			this.chkIsVoltage.Size = new System.Drawing.Size(206, 35);
+			this.chkIsVoltage.TabIndex = 39;
+			this.chkIsVoltage.Text = "Check điện áp";
+			this.chkIsVoltage.UseVisualStyleBackColor = true;
+			// 
+			// frmSkipDetailsH
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(689, 264);
+			this.ClientSize = new System.Drawing.Size(689, 294);
 			this.ContextMenuStrip = this.contextMenuStrip1;
+			this.Controls.Add(this.chkIsVoltage);
 			this.Controls.Add(this.rtxtCDSkip);
 			this.Controls.Add(this.txtProduct);
 			this.Controls.Add(this.labelControl9);
 			this.Controls.Add(this.labelControl6);
 			this.Controls.Add(this.mnuMenu);
 			this.Margin = new System.Windows.Forms.Padding(4);
-			this.Name = "frmSkipDetails";
+			this.Name = "frmSkipDetailsH";
 			this.Text = "CHI TIẾT SẢN PHẨM BỎ QUA CÔNG ĐOẠN";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmWorkingDetail_FormClosing);
 			this.Load += new System.EventHandler(this.frmProductWorkingDetail_Load);
@@ -217,5 +233,6 @@
         private System.Windows.Forms.ToolStripMenuItem saveNewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
 		private System.Windows.Forms.RichTextBox rtxtCDSkip;
+		private System.Windows.Forms.CheckBox chkIsVoltage;
 	}
 }

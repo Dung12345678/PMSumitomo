@@ -9,6 +9,7 @@ namespace ST.Model
 		private string articleID;
 		private DateTime? createDate;
 		private bool isGeneral;
+		private string paintingColor;
 		public int ID
 		{
 			get { return iD; }
@@ -37,6 +38,12 @@ namespace ST.Model
 		{
 			get { return isGeneral; }
 			set { isGeneral = value; }
+		}
+	
+		public string PaintingColor
+		{
+			get { return paintingColor; }
+			set { paintingColor = value; }
 		}
 	
 	}

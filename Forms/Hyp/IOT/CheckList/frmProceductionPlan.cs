@@ -156,14 +156,31 @@ namespace BMS
 			//}
 			try
 			{
-				string Statuss = Lib.ToString(grvData.GetRowCellValue(e.RowHandle, colStatuss));
-				if (Statuss.ToUpper().Contains("ĐÃ XONG"))
+				//string Statuss = Lib.ToString(grvData.GetRowCellValue(e.RowHandle, colStatuss));
+				//if (Statuss.ToUpper().Contains("ĐÃ XONG"))
+				//{
+				//	e.Appearance.BackColor = Color.Lime;
+				//}
+				//if (Statuss.ToUpper().Contains("QUÁ HẠN"))
+				//{
+				//	e.Appearance.BackColor = Color.Yellow;
+				//}
+				string Statuss = Lib.ToString(grvData.GetRowCellValue(e.RowHandle, colColor));
+				if (Statuss == "1")
 				{
 					e.Appearance.BackColor = Color.Lime;
 				}
-				if (Statuss.ToUpper().Contains("QUÁ HẠN"))
+				else if (Statuss == "2")
 				{
 					e.Appearance.BackColor = Color.Yellow;
+				}
+				else if (Statuss == "3")
+				{
+					e.Appearance.BackColor = Color.Orange;
+				}
+				else
+				{
+
 				}
 			}
 			catch
@@ -210,6 +227,15 @@ namespace BMS
 			{
 				MessageBox.Show(ex.ToString());
 			}
+		}
+
+		private void btnUpdateMotorHyp_Click(object sender, EventArgs e)
+		{
+			dtpFrom.Value = dtpFrom.Value.Date.AddHours(0).AddMinutes(00).AddSeconds(00);
+			dtpTo.Value = dtpTo.Value.Date.AddHours(23).AddMinutes(59).AddSeconds(59);
+			LibIE.ExcuteProcedure("spUpdateMotorPlan", new string[] { "@TextFilter", "@DateStart", "@DateEnd" }, new object[] { txtAssyOrderId.Text.Trim(), dtpFrom.Value.ToString("yyyy/MM/dd HH:mm:ss"), dtpTo.Value.ToString("yyyy/MM/dd HH:mm:ss") });
+			MessageBox.Show("Cập nhật thành công", "Thông báo");
+			LoadInfoSearch();
 		}
 	}
 }

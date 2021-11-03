@@ -10,6 +10,8 @@ namespace BMS.Model
 		
 		public string ProductGroupCode {get; set;}
 		
+		public int ProductTypeID {get; set;}
+		
 		public string MaVanBan {get; set;}
 		
 		public string ProductCode {get; set;}
@@ -79,6 +81,8 @@ namespace BMS.Model
 		public int QtyOcBanGa {get; set;}
 		
 		public int QtyOcBanThat {get; set;}
+		
+		public string ProductTypeCode {get; set;}
 		
 		public int BuLongNumber {get; set;}
 		
@@ -184,8 +188,6 @@ namespace BMS.Model
 		
 		public decimal LucCheck5Min {get; set;}
 		
-		public string ProductTypeCode {get; set;}
-		
 		public string SSS {get; set;}
 		
 		public string CARRIER {get; set;}
@@ -209,7 +211,14 @@ namespace BMS.Model
 		public string BEFORECOVER2 {get; set;}
 		
 		public string AFTERCOVER2 {get; set;}
+		
 		public string Goal {get; set;}
+		
+		public decimal EngineWeightMin {get; set;}
+		
+		public decimal EngineWeightMax {get; set;}
+		
+		public decimal EngineWeight {get; set;}
 		
 	}
 }

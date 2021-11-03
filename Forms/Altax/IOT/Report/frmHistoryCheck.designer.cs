@@ -70,6 +70,7 @@
 			this.btnFind = new System.Windows.Forms.Button();
 			this.btnExportExecl = new DevExpress.XtraEditors.SimpleButton();
 			this.sfdSaveDialog = new System.Windows.Forms.SaveFileDialog();
+			this.hIỂNTHỊFILECSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			((System.ComponentModel.ISupportInitialize)(this.grdData)).BeginInit();
 			this.contextMenuStrip1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.grvData)).BeginInit();
@@ -104,9 +105,10 @@
             this.btnShowHistoryCheckOrderDetail,
             this.nGHELẠIFILEÂMTHANHToolStripMenuItem,
             this.âMTHANHALTAXTHEOQRCODEToolStripMenuItem,
-            this.âMTHANHALTAXTHEOQRCODERToolStripMenuItem});
+            this.âMTHANHALTAXTHEOQRCODERToolStripMenuItem,
+            this.hIỂNTHỊFILECSVToolStripMenuItem});
 			this.contextMenuStrip1.Name = "contextMenuStrip1";
-			this.contextMenuStrip1.Size = new System.Drawing.Size(267, 92);
+			this.contextMenuStrip1.Size = new System.Drawing.Size(267, 136);
 			// 
 			// btnShowHistoryCheckOrderDetail
 			// 
@@ -547,6 +549,13 @@
 			// 
 			this.sfdSaveDialog.Title = "Lưu trữ Sound";
 			// 
+			// hIỂNTHỊFILECSVToolStripMenuItem
+			// 
+			this.hIỂNTHỊFILECSVToolStripMenuItem.Name = "hIỂNTHỊFILECSVToolStripMenuItem";
+			this.hIỂNTHỊFILECSVToolStripMenuItem.Size = new System.Drawing.Size(266, 22);
+			this.hIỂNTHỊFILECSVToolStripMenuItem.Text = "HIỂN THỊ FILE CSV";
+			this.hIỂNTHỊFILECSVToolStripMenuItem.Click += new System.EventHandler(this.hIỂNTHỊFILECSVToolStripMenuItem_Click);
+			// 
 			// frmHistoryCheck
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -617,5 +626,6 @@
 		private System.Windows.Forms.ToolStripMenuItem nGHEÂMTHANHALTAXSAUKHISỬALỖIKHÁCHHÀNGTRẢVỀToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem nGHEÂMTHANHCHIỀUFToolStripMenuItem3;
 		private System.Windows.Forms.ToolStripMenuItem nGHEÂMTHANHCHIỀURToolStripMenuItem3;
+		private System.Windows.Forms.ToolStripMenuItem hIỂNTHỊFILECSVToolStripMenuItem;
 	}
 }

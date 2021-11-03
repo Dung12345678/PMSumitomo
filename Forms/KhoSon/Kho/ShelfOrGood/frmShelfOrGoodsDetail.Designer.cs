@@ -42,6 +42,8 @@ namespace BMS
 			this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
 			this.txtShelf = new System.Windows.Forms.TextBox();
 			this.chkIsGeneral = new DevExpress.XtraEditors.CheckEdit();
+			this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+			this.txtPaintingColor = new System.Windows.Forms.TextBox();
 			this.mnuMenu.SuspendLayout();
 			this.menuStrip1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.chkIsGeneral.Properties)).BeginInit();
@@ -142,9 +144,9 @@ namespace BMS
 			this.txtArticleID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.txtArticleID.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.txtArticleID.Location = new System.Drawing.Point(143, 57);
+			this.txtArticleID.Location = new System.Drawing.Point(170, 57);
 			this.txtArticleID.Name = "txtArticleID";
-			this.txtArticleID.Size = new System.Drawing.Size(375, 35);
+			this.txtArticleID.Size = new System.Drawing.Size(348, 35);
 			this.txtArticleID.TabIndex = 227;
 			// 
 			// labelControl10
@@ -162,14 +164,14 @@ namespace BMS
 			this.txtShelf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.txtShelf.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.txtShelf.Location = new System.Drawing.Point(143, 111);
+			this.txtShelf.Location = new System.Drawing.Point(170, 111);
 			this.txtShelf.Name = "txtShelf";
-			this.txtShelf.Size = new System.Drawing.Size(375, 35);
+			this.txtShelf.Size = new System.Drawing.Size(348, 35);
 			this.txtShelf.TabIndex = 236;
 			// 
 			// chkIsGeneral
 			// 
-			this.chkIsGeneral.Location = new System.Drawing.Point(143, 169);
+			this.chkIsGeneral.Location = new System.Drawing.Point(170, 219);
 			this.chkIsGeneral.Name = "chkIsGeneral";
 			this.chkIsGeneral.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
 			this.chkIsGeneral.Properties.Appearance.Options.UseFont = true;
@@ -177,11 +179,33 @@ namespace BMS
 			this.chkIsGeneral.Size = new System.Drawing.Size(157, 33);
 			this.chkIsGeneral.TabIndex = 239;
 			// 
+			// labelControl1
+			// 
+			this.labelControl1.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.labelControl1.Appearance.Options.UseFont = true;
+			this.labelControl1.Location = new System.Drawing.Point(12, 169);
+			this.labelControl1.Name = "labelControl1";
+			this.labelControl1.Size = new System.Drawing.Size(152, 29);
+			this.labelControl1.TabIndex = 241;
+			this.labelControl1.Text = "Painting Color";
+			// 
+			// txtPaintingColor
+			// 
+			this.txtPaintingColor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtPaintingColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtPaintingColor.Location = new System.Drawing.Point(170, 166);
+			this.txtPaintingColor.Name = "txtPaintingColor";
+			this.txtPaintingColor.Size = new System.Drawing.Size(348, 35);
+			this.txtPaintingColor.TabIndex = 240;
+			// 
 			// frmShelfOrGoodsDetail
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(530, 214);
+			this.ClientSize = new System.Drawing.Size(530, 264);
+			this.Controls.Add(this.labelControl1);
+			this.Controls.Add(this.txtPaintingColor);
 			this.Controls.Add(this.chkIsGeneral);
 			this.Controls.Add(this.labelControl9);
 			this.Controls.Add(this.txtArticleID);
@@ -218,5 +242,7 @@ namespace BMS
 		private DevExpress.XtraEditors.LabelControl labelControl10;
 		private System.Windows.Forms.TextBox txtShelf;
 		private DevExpress.XtraEditors.CheckEdit chkIsGeneral;
+		private DevExpress.XtraEditors.LabelControl labelControl1;
+		private System.Windows.Forms.TextBox txtPaintingColor;
 	}
 }

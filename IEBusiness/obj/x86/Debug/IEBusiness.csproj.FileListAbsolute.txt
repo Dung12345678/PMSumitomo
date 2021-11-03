@@ -376,3 +376,11 @@ D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20\IEBus
 D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20\IEBusiness\obj\x86\Debug\IEBusiness.csproj.CoreCompileInputs.cache
 D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20\IEBusiness\obj\x86\Debug\IEBusiness.dll
 D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20\IEBusiness\obj\x86\Debug\IEBusiness.pdb
+D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\IEBusiness\bin\x86\Debug\IEBusiness.dll
+D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\IEBusiness\bin\x86\Debug\IEBusiness.pdb
+D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\IEBusiness\obj\x86\Debug\IEBusiness.csproj.AssemblyReference.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\IEBusiness\obj\x86\Debug\IEBusiness.Properties.Resources.resources
+D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\IEBusiness\obj\x86\Debug\IEBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\IEBusiness\obj\x86\Debug\IEBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\IEBusiness\obj\x86\Debug\IEBusiness.dll
+D:\project\Sumitomo\PM\Current\SumitomoBackup-09-08-2021-LineSuaHang-Dev20 - QC\IEBusiness\obj\x86\Debug\IEBusiness.pdb

@@ -38,6 +38,7 @@
 			this.colID = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colProduct = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colCDSkip = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colIsVoltage = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.mnuMenu = new System.Windows.Forms.ToolStrip();
 			this.btnNew = new System.Windows.Forms.ToolStripButton();
 			this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
@@ -81,7 +82,8 @@
 			this.grvData.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colID,
             this.colProduct,
-            this.colCDSkip});
+            this.colCDSkip,
+            this.colIsVoltage});
 			this.grvData.FormatConditions.AddRange(new DevExpress.XtraGrid.StyleFormatCondition[] {
             styleFormatCondition1,
             styleFormatCondition2,
@@ -168,6 +170,31 @@
 			this.colCDSkip.Visible = true;
 			this.colCDSkip.VisibleIndex = 1;
 			this.colCDSkip.Width = 434;
+			// 
+			// colIsVoltage
+			// 
+			this.colIsVoltage.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 14.25F);
+			this.colIsVoltage.AppearanceCell.Options.UseFont = true;
+			this.colIsVoltage.AppearanceCell.Options.UseTextOptions = true;
+			this.colIsVoltage.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colIsVoltage.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colIsVoltage.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colIsVoltage.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.colIsVoltage.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold);
+			this.colIsVoltage.AppearanceHeader.Options.UseBackColor = true;
+			this.colIsVoltage.AppearanceHeader.Options.UseFont = true;
+			this.colIsVoltage.AppearanceHeader.Options.UseTextOptions = true;
+			this.colIsVoltage.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colIsVoltage.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colIsVoltage.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colIsVoltage.Caption = "Check điện áp";
+			this.colIsVoltage.FieldName = "IsVoltage";
+			this.colIsVoltage.Name = "colIsVoltage";
+			this.colIsVoltage.OptionsColumn.AllowEdit = false;
+			this.colIsVoltage.OptionsColumn.ReadOnly = true;
+			this.colIsVoltage.Visible = true;
+			this.colIsVoltage.VisibleIndex = 2;
+			this.colIsVoltage.Width = 175;
 			// 
 			// mnuMenu
 			// 
@@ -281,5 +308,6 @@
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
 		private System.Windows.Forms.ToolStripButton btnDelete;
 		private System.Windows.Forms.ToolStripButton btnImportExcel;
+		private DevExpress.XtraGrid.Columns.GridColumn colIsVoltage;
 	}
 }

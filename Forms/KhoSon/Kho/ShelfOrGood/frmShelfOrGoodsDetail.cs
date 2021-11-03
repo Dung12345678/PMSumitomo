@@ -77,6 +77,7 @@ namespace BMS
 			txtArticleID.Text = changeShelfModel.ArticleID;
 			txtShelf.Text = changeShelfModel.Shelf;
 			chkIsGeneral.Checked = changeShelfModel.IsGeneral;
+			txtPaintingColor.Text = changeShelfModel.PaintingColor;
 		}
 		bool SaveData()
 		{
@@ -84,6 +85,7 @@ namespace BMS
 			changeShelfModel.ArticleID = txtArticleID.Text.Trim();
 			changeShelfModel.Shelf = txtShelf.Text.Trim();
 			changeShelfModel.IsGeneral = chkIsGeneral.Checked;
+			changeShelfModel.PaintingColor = txtPaintingColor.Text.Trim();
 
 			if (changeShelfModel.ID > 0)
 			{

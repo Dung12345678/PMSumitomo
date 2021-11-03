@@ -199,13 +199,12 @@ namespace BMS
 					#region SetValue
 					skipCDModel.Product = _productCode;
 					skipCDModel.CDSkip = TextUtils.ToString(grvData.GetRowCellValue(i, "F2"));
+					skipCDModel.IsVoltage = TextUtils.ToBoolean(grvData.GetRowCellValue(i, "F3"));
 					#endregion
-
 					if (arr.Count > 0)
 					{
 						SkipCDBO.Instance.Update(skipCDModel);
 					}
-
 					else
 					{
 						skipCDModel.ID = (int)SkipCDBO.Instance.Insert(skipCDModel);

@@ -280,10 +280,30 @@ namespace BMS
 					{
 						productionPlanModel.RequestDate = Lib.ToDate2(grvData.GetRowCellValue(i, "DATEF18"));
 					}
-					productionPlanModel.MaMoto = Lib.ToString(grvData.GetRowCellValue(i, "F21"));
 					productionPlanModel.MaMoto1 = Lib.ToString(grvData.GetRowCellValue(i, "F22"));
 					productionPlanModel.OrderCodeFull = productionPlanModel.OrderCode + productionPlanModel.Cnt;
 					productionPlanModel.AssemblyDate = new DateTime(9998, 01, 01);
+
+					//productionPlanModel.MaMoto = Lib.ToString(grvData.GetRowCellValue(i, "F21"));
+					if (Lib.ToString(grvData.GetRowCellValue(i, "F21")) == "")
+					{
+						try
+						{
+							string MotorValue = TextUtils.ToString(LibIE.ExcuteScalar($"SELECT TOP 1 ArticleID FROM ShiStock.dbo.OrderPart WHERE OrderCodeAndCnt='{productionPlanModel.OrderCodeFull}'"));
+							if (MotorValue != "")
+							{
+								productionPlanModel.MaMoto = MotorValue;
+							}
+							else
+							{
+								productionPlanModel.MaMoto = Lib.ToString(grvData.GetRowCellValue(i, "F21"));
+							}
+						}
+						catch
+						{
+
+						}
+					}
 					#endregion
 
 					if (arr.Count > 0)
